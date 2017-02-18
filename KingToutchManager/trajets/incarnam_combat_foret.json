@@ -1,0 +1,46 @@
+ {
+  "trajet": {
+    "recolt": [
+    ],
+    "fights": [
+      {
+        "map": 80216581,
+        "dir": "right"
+      },
+      {
+        "map": 80217093,
+        "dir": "bottom"
+      },
+      {
+        "map": 80217094,
+        "dir": "left"
+      },
+      {
+        "map": 80216582,
+        "dir": "left"
+      },
+      {
+        "map": 80216070,
+        "dir": "left"
+      },
+      {
+        "map": 80347654,
+        "dir": "top"
+      },
+      {
+        "map": 80347653,
+        "dir": "right"
+      },
+      {
+        "map": 80216069,
+        "dir": "right"
+      }
+    ],
+    "interactives": [
+    ],
+    "moves": [
+    ],
+    "bank": [
+    ]
+  }
+}

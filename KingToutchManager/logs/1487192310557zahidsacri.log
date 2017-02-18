@@ -1,0 +1,85 @@
+Server request connecting ...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"QH/5FwGQZ2ElfcVZ"}
+Config loaded !
+{"key":"588e0b2e-815f-40e8-a041-0ed657e4fce8","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-15T21:58:34+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T00:58:34+01:00"}
+Api key : 588e0b2e-815f-40e8-a041-0ed657e4fce8
+Game token : 20122311d88fc6f5b8465b295c7275f6
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=QH%2F5FwGQZ2ElfcVZ) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+[Aucun groupe:0:info]1/2 in login queue...
+[Aucun groupe:0:info]1/4 in login queue...
+[Aucun groupe:0:info]0/3 in login queue...
+[Aucun groupe:0:info]Identification success (1465968706047943092) !
+[Aucun groupe:0:info]Servers list received !
+[Aucun groupe:0:info][processServerSelection]...
+[Aucun groupe:0:info]Request for server infos (id : 403) ...
+Connection closed
+migrating...
+Connection opened !
+[Aucun groupe:0:info]Game connection opened !
+[Aucun groupe:0:success][processServerSelection]OK
+[Aucun groupe:0:info][processsCharacterSelection]...
+[Aucun groupe:0:info]Request for characters ...
+[Aucun groupe:0:info]Selecting frist character (Miss-Lagertha) ...
+Set default config for Miss-Lagertha
+[Aucun groupe:0:info][Inventory]Object : 69522538 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 69522539 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 69522540 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 69522541 selected for regen !
+Sequence ready !
+[Aucun groupe:0:info][Infos]Welcome to DOFUS, and welcome to the World of Twelve! 
+Remember that it is <b>strictly forbidden</b> to disclose your account name or password.
+[Aucun groupe:0:info][Infos]There will be a server maintenance in 11 hours, 31 minutes.
+{"call":"global-state-request"}
+Server request for state ...
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Trajet]No trajet loaded !
+[InventoryManager]Items infos loaded !
+Debug command received .
+{ elements: 
+   { '463301': { interactive: [Object], stated: [Object] },
+     '463302': { interactive: [Object], stated: [Object] },
+     '463303': { interactive: [Object], stated: [Object] },
+     '463304': { interactive: [Object], stated: [Object] },
+     '463305': { interactive: [Object], stated: [Object] },
+     '463306': { interactive: [Object], stated: [Object] },
+     '463307': { interactive: [Object], stated: [Object] },
+     '463308': { interactive: [Object], stated: [Object] },
+     '463309': { interactive: [Object], stated: [Object] },
+     '463310': { interactive: [Object], stated: [Object] },
+     '463311': { interactive: [Object], stated: [Object] },
+     '463312': { interactive: [Object], stated: [Object] },
+     '463313': { interactive: [Object], stated: [Object] },
+     '463314': { interactive: [Object], stated: [Object] },
+     '463315': { interactive: [Object], stated: [Object] },
+     '463316': { interactive: [Object], stated: [Object] },
+     '463317': { interactive: [Object], stated: [Object] },
+     '463318': { interactive: [Object], stated: [Object] },
+     '463319': { interactive: [Object], stated: [Object] },
+     '463320': { interactive: [Object], stated: [Object] },
+     '463321': { interactive: [Object], stated: [Object] },
+     '463322': { interactive: [Object], stated: [Object] },
+     '463323': { interactive: [Object], stated: [Object] },
+     '463324': { interactive: [Object], stated: [Object] } },
+  skillId: 45 }
+TypeError: Cannot read property 'enabledSkills' of undefined
+    at exports.Gather.gatherable (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\engine\core\gather.js:27:34)
+    at exports.Gather.GatherFirstAvailableRessource (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\engine\core\gather.js:16:11)
+    at EventEmitter.bot.connection.dispatcher.on.e (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\engine\core\sync.js:27:19)
+    at emitOne (events.js:96:13)
+    at EventEmitter.emit (events.js:188:7)
+    at Primus.<anonymous> (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\network\clientConnection.js:75:19)
+    at emitTwo (events.js:106:13)
+    at Primus.emit (events.js:191:7)
+    at done (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\network\primus.js:2569:48)
+    at transform (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\network\primus.js:2540:30)
+Sequence ready !
+[Primus reconnect]{"reconnect timeout":30000,"retries":10,"factor":2,"max":null,"min":500,"start":1487192731954,"duration":500,"attempt":1,"backoff":false,"scheduled":500}
+[Aucun groupe:0:info]<span color="red">Connection closed, reloading client ...</span>
+Session for zahidsacri exported !
+[Prmius reconnected]
+Connection opened !

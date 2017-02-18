@@ -36,7 +36,7 @@ exports.processIdentification = function(logg,connection,token,username,cb,ident
 	wrap('HelloConnectMessage', function (msg) {
 		auth.salt = msg.salt;
 		auth.key = msg.key;
-		connection.send('checkAssetsVersion', {assetsVersion : "2.15.15",staticDataVersion:"23"});//pareille il faut caler les value qq part
+		connection.send('checkAssetsVersion', {assetsVersion : "2.15.15",staticDataVersion:"25"});//pareille il faut caler les value qq part
 	});
 
 	wrap('assetsVersionChecked', function (instructions) {

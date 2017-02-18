@@ -19,11 +19,14 @@ exports.processUseInteractive = function(bot,id,skill,keys,cb,waitForUseEnded){
             wrap.done(true);
         }
     });
+    console.log("Exectution du trajet vers l'interactive .")
     processKeyMovements(bot,keys,function(result){
         if(result){
+            console.log("Utlisiation de l'interactive (id : " + id + ',skill : ' + skill +')' );
             bot.connection.sendMessage("InteractiveUseRequestMessage",{elemId: id, skillInstanceUid: skill});
         }
         else{
+            console.log("Mouvement vers l'interactive échoué .");
             wrap.done(false);
         }
     })

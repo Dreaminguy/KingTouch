@@ -1,5 +1,3 @@
-const DEBUG_PACKET = true;
-
 var Primus = require("./primus.js");
 var EventEmitter = require("events").EventEmitter;
 
@@ -8,7 +6,8 @@ exports.ClientConnection = function(){
 	this.dispatcher = new EventEmitter();
 	this.currentSessionId;
 }
-exports.ClientConnection.prototype.connect = function(sessionId,url){
+exports.ClientConnection.prototype.connect = function(sessionId,url,logger){
+    this.logger = logger;
 	this.connectionCount++;
 	this.currentSessionId=sessionId;
 	var currentUrl = makeSticky(url,this.currentSessionId);
@@ -48,14 +47,7 @@ exports.ClientConnection.prototype.send = function (callName, data) {
 		data: data
 	};
 
-	if(DEBUG_PACKET == true){
-		if(typeof data != "undefined"){
-			this.dispatcher.emit("packetSend",msg);
-		}
-		else{
-			this.dispatcher.emit("packetSend",callName);
-		}
-	}
+    this.logger.log("packet-send",{call:callName,data:data});
 
 	this.currentConnection.write(msg);
 };
@@ -64,14 +56,12 @@ exports.ClientConnection.prototype.sendMessage = function(messageName,data){
 };
 exports.ClientConnection.prototype.setCurrentConnection = function(){
 	var self = this;
-	self.currentConnection.on("open",function(){
+	self.currentConnection.on("open",()=>{
 		console.log("Connection opened !");
 		self.dispatcher.emit("open");
 	});
 	self.currentConnection.on("data",function(data){
-		if(DEBUG_PACKET == true){
-			self.dispatcher.emit("packetReceive",data);
-		}
+		self.logger.log(data);
 		self.dispatcher.emit(data._messageType, data);
 	});//todo gérer la reconnection avec primus il semble y avoir deux trois trucs a faire 
 	self.currentConnection.on("error",function(error){
@@ -93,7 +83,7 @@ exports.ClientConnection.prototype.setCurrentConnection = function(){
 		self.dispatcher.emit("closed","reconnect_failed");
 	});
 	self.currentConnection.on('end', function () {
-		console.log('Connection closed');
+        console.log("Prmus close connection !");
 		self.dispatcher.emit("closed","end");
 	});
 }

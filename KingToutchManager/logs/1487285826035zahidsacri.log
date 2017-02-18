@@ -1,0 +1,10 @@
+Server request connecting ...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"pGnBRGHR0klGoAP2"}
+Config loaded !
+{"key":"6fa56407-4727-4836-ad39-79e1d8f22e87","account_id":112984462,"ip":"41.251.121.89","added_date":"2017-02-16T23:57:11+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-17T02:57:11+01:00"}
+Api key : 6fa56407-4727-4836-ad39-79e1d8f22e87
+Game token : b249fc38ed7ad7c3af1952d73ddc144f
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=pGnBRGHR0klGoAP2) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !

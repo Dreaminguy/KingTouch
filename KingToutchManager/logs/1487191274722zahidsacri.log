@@ -1,0 +1,101 @@
+Server request connecting ...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"+4ryj/8phZM8h2L6"}
+Config loaded !
+{"key":"73064534-ef7f-42e8-b2c3-1955d3474f15","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-15T21:41:17+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T00:41:17+01:00"}
+Api key : 73064534-ef7f-42e8-b2c3-1955d3474f15
+Game token : 9635443d4b993750e18bc6cfa0605737
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=%2B4ryj%2F8phZM8h2L6) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+[Aucun groupe:0:info]Identification success (1465968706047871863) !
+[Aucun groupe:0:info]Servers list received !
+[Aucun groupe:0:info][processServerSelection]...
+[Aucun groupe:0:info]Request for server infos (id : 403) ...
+Connection closed
+migrating...
+Connection opened !
+[Aucun groupe:0:info]Game connection opened !
+[Aucun groupe:0:success][processServerSelection]OK
+[Aucun groupe:0:info][processsCharacterSelection]...
+[Aucun groupe:0:info]Request for characters ...
+[Aucun groupe:0:info]Selecting frist character (Miss-Lagertha) ...
+Set default config for Miss-Lagertha
+[Aucun groupe:0:info][Inventory]Object : 68798299 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 68798300 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 68798301 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 68798302 selected for regen !
+Sequence ready !
+[Aucun groupe:0:info][Infos]Welcome to DOFUS, and welcome to the World of Twelve! 
+Remember that it is <b>strictly forbidden</b> to disclose your account name or password.
+[Aucun groupe:0:info][Infos]There will be a server maintenance in 11 hours, 48 minutes.
+{"call":"global-state-request"}
+Server request for state ...
+[InventoryManager]Items infos loaded !
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Trajet]No trajet loaded !
+Debug command received .
+{ id: 38, skillId: 45 }
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+TypeError: Cannot read property 'enabledSkills' of undefined
+    at exports.Gather.gatherable (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\engine\core\gather.js:26:34)
+    at exports.Gather.GatherFirstAvailableRessource (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\engine\core\gather.js:15:11)
+    at EventEmitter.bot.connection.dispatcher.on.e (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\engine\core\sync.js:27:19)
+    at emitOne (events.js:96:13)
+    at EventEmitter.emit (events.js:188:7)
+    at Primus.<anonymous> (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\network\clientConnection.js:75:19)
+    at emitTwo (events.js:106:13)
+    at Primus.emit (events.js:191:7)
+    at done (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\network\primus.js:2569:48)
+    at transform (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\network\primus.js:2540:30)

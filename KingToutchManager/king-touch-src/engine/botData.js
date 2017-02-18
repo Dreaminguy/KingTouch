@@ -5,8 +5,10 @@ var ActorsManager = require("./managers/actorsManager.js").ActorsManager;
 var FightManager = require("./managers/fightManager.js").FightManager;
 var InventoryManager = require("./managers/inventoryManager.js").InventoryManager;
 var ExchangeManager = require("./managers/exchangeManager.js").ExchangeManager;
-var ConfigManager = require("./managers/configManager.js");
 var JobsManager = require("./managers/jobsManager.js").JobsManager;
+var ConfigManager = require("./managers/configManager.js");
+var staticConetentManager = require("./managers/staticContentManager.js");
+
 exports.BotData = function(clientId,clientGroupe,bot){
 	this.dispatcher=new EventEmitter();
 
@@ -14,6 +16,7 @@ exports.BotData = function(clientId,clientGroupe,bot){
 	this.context = "NONE";
 	this.characterInfos = null;
 	this.userConfig = null;
+    this.breedInfos = null;
 
 	this.clientId = clientId;
 	this.clientGroupe =  clientGroupe;
@@ -28,10 +31,15 @@ exports.BotData = function(clientId,clientGroupe,bot){
 	bot.connection.dispatcher.on("CharacterSelectedSuccessMessage",(m)=>{
 		this.characterInfos=m.infos;
 		this.characterInfos.contextualId = m.infos.id;
-		ConfigManager.getConfig(this.characterInfos.name,(loadedConfig)=>{
-			this.userConfig = loadedConfig;
-			this.dispatcher.emit("characterSelected",{character:this.characterInfos,config:this.userConfig});
-		});
+        staticConetentManager.getBreedsInfos([this.characterInfos.breed],(breedNfo)=>{
+            this.breedInfos = breedNfo[this.characterInfos.breed];
+            ConfigManager.getConfig(this.characterInfos.name,(loadedConfig)=>{
+                this.userConfig = loadedConfig;
+                this.dispatcher.emit("characterSelected",{character:this.characterInfos,config:this.userConfig});
+            });   
+            
+        });;
+
 	});
 }
 

@@ -1,0 +1,240 @@
+Server request connecting ...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"HfifPq3XnDW/wbFH"}
+Config loaded !
+{"key":"f5d39a0c-1cf1-4560-809b-98c04889330a","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-15T23:23:23+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T02:23:23+01:00"}
+Api key : f5d39a0c-1cf1-4560-809b-98c04889330a
+Game token : 7eb9c8cdfb2a1cc862d1ec261ab02da7
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=HfifPq3XnDW%2FwbFH) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+[Aucun groupe:0:info]1/2 in login queue...
+[Aucun groupe:0:info]0/1 in login queue...
+[Aucun groupe:0:info]Identification success (1465968706048285401) !
+[Aucun groupe:0:info]Servers list received !
+[Aucun groupe:0:info][processServerSelection]...
+[Aucun groupe:0:info]Request for server infos (id : 403) ...
+Connection closed
+migrating...
+Connection opened !
+[Aucun groupe:0:info]Game connection opened !
+[Aucun groupe:0:success][processServerSelection]OK
+[Aucun groupe:0:info][processsCharacterSelection]...
+[Aucun groupe:0:info]Request for characters ...
+[Aucun groupe:0:info]Selecting frist character (Miss-Lagertha) ...
+Set default config for Miss-Lagertha
+[Aucun groupe:0:info][Inventory]Object : 73061180 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73061181 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73061182 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73061183 selected for regen !
+Sequence ready !
+[Aucun groupe:0:info][Infos]Welcome to DOFUS, and welcome to the World of Twelve! 
+Remember that it is <b>strictly forbidden</b> to disclose your account name or password.
+[Aucun groupe:0:info][Infos]There will be a server maintenance in 10 hours, 6 minutes.
+[InventoryManager]Items infos loaded !
+{"call":"global-state-request"}
+Server request for state ...
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Trajet]No trajet loaded !
+Debug command received .
+[ { _type: 'InteractiveElementSkill',
+    skillId: 45,
+    skillInstanceUid: 193089,
+    _cursor: 4,
+    _name: 'Reap',
+    _parentJobId: 28,
+    _levelMin: 1,
+    _parentJobName: 'Farmer' } ]
+Gathering element :{id : 463310cellid:undefined}
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 1785(9 cells)
+Confirmations du mouvement dans 1785ms
+Mouvement confirmée !
+[ { _type: 'StatedElement',
+    elementId: 463310,
+    elementCellId: 243,
+    elementState: 2 } ]
+[ { _type: 'StatedElement',
+    elementId: 463310,
+    elementCellId: 243,
+    elementState: 1 } ]
+[ { _type: 'StatedElement',
+    elementId: 463313,
+    elementCellId: 213,
+    elementState: 0 } ]
+Debug command received .
+[ { _type: 'InteractiveElementSkill',
+    skillId: 45,
+    skillInstanceUid: 193081,
+    _cursor: 4,
+    _name: 'Reap',
+    _parentJobId: 28,
+    _levelMin: 1,
+    _parentJobName: 'Farmer' } ]
+Gathering element :{id : 463311cellid:undefined}
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 850(6 cells)
+Confirmations du mouvement dans 850ms
+Mouvement confirmée !
+[ { _type: 'StatedElement',
+    elementId: 463311,
+    elementCellId: 221,
+    elementState: 2 } ]
+[ { _type: 'StatedElement',
+    elementId: 463311,
+    elementCellId: 221,
+    elementState: 1 } ]
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Trajet]No trajet loaded !
+Debug command received .
+[ { _type: 'InteractiveElementSkill',
+    skillId: 45,
+    skillInstanceUid: 193090,
+    _cursor: 4,
+    _name: 'Reap',
+    _parentJobId: 28,
+    _levelMin: 1,
+    _parentJobName: 'Farmer' } ]
+Gathering element :{id : 463313cellid:undefined}
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 1020(7 cells)
+Confirmations du mouvement dans 1020ms
+Mouvement confirmée !
+[ { _type: 'StatedElement',
+    elementId: 463313,
+    elementCellId: 213,
+    elementState: 2 } ]
+[ { _type: 'StatedElement',
+    elementId: 463313,
+    elementCellId: 213,
+    elementState: 1 } ]
+[ { _type: 'StatedElement',
+    elementId: 463303,
+    elementCellId: 306,
+    elementState: 0 } ]
+[ { _type: 'StatedElement',
+    elementId: 463306,
+    elementCellId: 285,
+    elementState: 0 } ]
+[ { _type: 'StatedElement',
+    elementId: 463309,
+    elementCellId: 255,
+    elementState: 0 } ]
+[ { _type: 'StatedElement',
+    elementId: 463312,
+    elementCellId: 483,
+    elementState: 0 } ]
+Debug command received .
+[ { _type: 'InteractiveElementSkill',
+    skillId: 45,
+    skillInstanceUid: 193069,
+    _cursor: 4,
+    _name: 'Reap',
+    _parentJobId: 28,
+    _levelMin: 1,
+    _parentJobName: 'Farmer' } ]
+Gathering element :{id : 463303cellid:undefined}
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 1580(11 cells)
+Confirmations du mouvement dans 1580ms
+Mouvement confirmée !
+[ { _type: 'StatedElement',
+    elementId: 463303,
+    elementCellId: 306,
+    elementState: 2 } ]
+[ { _type: 'StatedElement',
+    elementId: 463303,
+    elementCellId: 306,
+    elementState: 1 } ]
+Debug command received .
+[ { _type: 'InteractiveElementSkill',
+    skillId: 45,
+    skillInstanceUid: 193071,
+    _cursor: 4,
+    _name: 'Reap',
+    _parentJobId: 28,
+    _levelMin: 1,
+    _parentJobName: 'Farmer' } ]
+Gathering element :{id : 463306cellid:undefined}
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 1235(8 cells)
+Confirmations du mouvement dans 1235ms
+Mouvement confirmée !
+[ { _type: 'StatedElement',
+    elementId: 463306,
+    elementCellId: 285,
+    elementState: 2 } ]
+[ { _type: 'StatedElement',
+    elementId: 463322,
+    elementCellId: 77,
+    elementState: 0 } ]
+[ { _type: 'StatedElement',
+    elementId: 463324,
+    elementCellId: 239,
+    elementState: 0 } ]
+[ { _type: 'StatedElement',
+    elementId: 463305,
+    elementCellId: 263,
+    elementState: 0 } ]
+[ { _type: 'StatedElement',
+    elementId: 463306,
+    elementCellId: 285,
+    elementState: 1 } ]
+Debug command received .
+[ { _type: 'InteractiveElementSkill',
+    skillId: 45,
+    skillInstanceUid: 193079,
+    _cursor: 4,
+    _name: 'Reap',
+    _parentJobId: 28,
+    _levelMin: 1,
+    _parentJobName: 'Farmer' } ]
+Gathering element :{id : 463305cellid:undefined}
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 1275(7 cells)
+Confirmations du mouvement dans 1275ms
+Mouvement confirmée !
+[ { _type: 'StatedElement',
+    elementId: 463305,
+    elementCellId: 263,
+    elementState: 2 } ]
+[ { _type: 'StatedElement',
+    elementId: 463305,
+    elementCellId: 263,
+    elementState: 1 } ]
+[ { _type: 'StatedElement',
+    elementId: 463321,
+    elementCellId: 469,
+    elementState: 0 } ]
+[ { _type: 'StatedElement',
+    elementId: 463308,
+    elementCellId: 510,
+    elementState: 0 } ]
+[ { _type: 'StatedElement',
+    elementId: 463312,
+    elementCellId: 483,
+    elementState: 2 } ]
+[Primus reconnect]{"reconnect timeout":30000,"retries":10,"factor":2,"max":null,"min":500,"start":1487197665319,"duration":500,"attempt":1,"backoff":false,"scheduled":500}
+[Aucun groupe:0:info]<span color="red">Connection closed, reloading client ...</span>
+Session for zahidsacri exported !
+Reconnecting undefined ...
+Rescuring session...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"8q5MeTrD/3nAsu3I"}
+Config loaded !
+[Prmius reconnected]
+Connection opened !
+{"key":"95781437-8bc9-4b1c-abc7-d857d849910d","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-15T23:28:00+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T02:28:00+01:00"}
+Api key : 95781437-8bc9-4b1c-abc7-d857d849910d
+Game token : 022b1d168af5882c12e88edd4728fee1
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=8q5MeTrD%2F3nAsu3I) ...

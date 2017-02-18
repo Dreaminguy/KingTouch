@@ -1,0 +1,1007 @@
+Server request connecting ...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"wCBffsmqZFad5LdZ"}
+Config loaded !
+{"key":"1e28e287-e60d-4bbc-99d7-d13562ce2ce3","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-16T01:54:17+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T04:54:17+01:00"}
+Api key : 1e28e287-e60d-4bbc-99d7-d13562ce2ce3
+Game token : 9f9e57114c2d71a0e4a93f506e7dece4
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=wCBffsmqZFad5LdZ) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+[Aucun groupe:0:info]2/2 in login queue...
+[Aucun groupe:0:info]0/0 in login queue...
+[Aucun groupe:0:info]0/0 in login queue...
+[Aucun groupe:0:info]Identification success (1465968706048763657) !
+[Aucun groupe:0:info]Servers list received !
+[Aucun groupe:0:info][processServerSelection]...
+[Aucun groupe:0:info]Request for server infos (id : 403) ...
+Connection closed
+migrating...
+Connection opened !
+[Aucun groupe:0:info]Game connection opened !
+[Aucun groupe:0:success][processServerSelection]OK
+[Aucun groupe:0:info][processsCharacterSelection]...
+[Aucun groupe:0:info]Request for characters ...
+[Aucun groupe:0:info]Selecting frist character (Miss-Lagertha) ...
+Set default config for Miss-Lagertha
+[Aucun groupe:0:info][Inventory]Object : 77571711 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 77571712 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 77571713 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 77571714 selected for regen !
+[InventoryManager]Items infos loaded !
+Sequence ready !
+[Aucun groupe:0:info][Infos]Welcome to DOFUS, and welcome to the World of Twelve! 
+Remember that it is <b>strictly forbidden</b> to disclose your account name or password.
+[Aucun groupe:0:info][Infos]There will be a server maintenance in 7 hours, 35 minutes.
+{"call":"global-state-request"}
+Server request for state ...
+-6:610200
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Trajet]No trajet loaded !
+-5:610200
+{"call":"trajet-load","data":{"trajet":{"trajet":{"fights":[],"recolte":[{"map":80219138,"dir":"right"},{"map":80219650,"dir":"left"}],"interactives":[],"moves":[],"bank":[]}}}}
+[mainProcessFrame]Ui request for trajet loading ...
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Gathering element :{id : 463316 , cellid : 199 }
+Sending map request !
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 920(7 cells)
+Confirmations du mouvement dans 920ms
+Mouvement confirmée !
+-4:610200
+-6:610200
+Plus de ressources à récolter disponibles , on passe à la map suivante
+Calculating path...
+Processing key movements !
+Sending map request !
+[Aucun groupe:0:info][Trajet]Changement de carte, premiere cellid disponble
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 3910(18 cells)
+Confirmations du mouvement dans 3910ms
+Mouvement confirmée !
+Key movements proccesed !
+Movement ok 
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Gathering element :{id : 462986 , cellid : 160 }
+Sending map request !
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1540(11 cells)
+Confirmations du mouvement dans 1540ms
+Mouvement confirmée !
+-4:610200
+547408:610200
+547408:610200
+547408:610200
+547408:610200
+547408:610200
+-5:610200
+Gathering element :{id : 462987 , cellid : 174 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 480(2 cells)
+Confirmations du mouvement dans 480ms
+Mouvement confirmée !
+-6:610200
+-4:610200
+Gathering element :{id : 462989 , cellid : 188 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 425(2 cells)
+Confirmations du mouvement dans 425ms
+Mouvement confirmée !
+-5:610200
+-6:610200
+Gathering element :{id : 462990 , cellid : 346 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1240(9 cells)
+Confirmations du mouvement dans 1240ms
+Mouvement confirmée !
+-4:610200
+Gathering element :{id : 462991 , cellid : 103 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1710(12 cells)
+Confirmations du mouvement dans 1710ms
+Mouvement confirmée !
+-5:610200
+547408:610200
+547408:610200
+Gathering element :{id : 462995 , cellid : 158 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 510(2 cells)
+Confirmations du mouvement dans 510ms
+Mouvement confirmée !
+-6:610200
+-4:610200
+Gathering element :{id : 462996 , cellid : 304 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1500(11 cells)
+Confirmations du mouvement dans 1500ms
+Mouvement confirmée !
+-5:610200
+-6:610200
+Gathering element :{id : 462998 , cellid : 132 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1240(9 cells)
+Confirmations du mouvement dans 1240ms
+Mouvement confirmée !
+-4:610200
+-5:610200
+Gathering element :{id : 463000 , cellid : 159 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 510(2 cells)
+Confirmations du mouvement dans 510ms
+Mouvement confirmée !
+-6:610200
+Gathering element :{id : 462992 , cellid : 289 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 920(7 cells)
+Confirmations du mouvement dans 920ms
+Mouvement confirmée !
+Gathering element :{id : 462994 , cellid : 347 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 600(5 cells)
+Confirmations du mouvement dans 600ms
+Mouvement confirmée !
+-5:610200
+-4:610200
+Gathering element :{id : 462997 , cellid : 383 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1530(8 cells)
+Confirmations du mouvement dans 1530ms
+Mouvement confirmée !
+-6:610200
+-5:610200
+Gathering element :{id : 463001 , cellid : 368 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 480(2 cells)
+Confirmations du mouvement dans 480ms
+Mouvement confirmée !
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Gathering element :{id : 463002 , cellid : 215 }
+Sending map request !
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+-4:610200
+-6:610200
+Gathering element :{id : 463002 , cellid : 215 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 935(6 cells)
+Confirmations du mouvement dans 935ms
+MapMovement received !
+Confirmation du movement dans : 935(6 cells)
+Confirmations du mouvement dans 935ms
+Mouvement confirmée !
+Mouvement confirmée !
+Sequence ready !
+Gathering element :{id : 462993 , cellid : 290 }
+Sending map request !
+Gathering element :{id : 462993 , cellid : 290 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 790(6 cells)
+Confirmations du mouvement dans 790ms
+MapMovement received !
+Confirmation du movement dans : 790(6 cells)
+Confirmations du mouvement dans 790ms
+Mouvement confirmée !
+Mouvement confirmée !
+-5:610200
+Gathering element :{id : 462999 , cellid : 359 }
+Sending map request !
+Gathering element :{id : 462999 , cellid : 359 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 905(3 cells)
+Confirmations du mouvement dans 905ms
+MapMovement received !
+Confirmation du movement dans : 905(3 cells)
+Confirmations du mouvement dans 905ms
+Mouvement confirmée !
+Mouvement confirmée !
+-4:610200
+-6:610200
+Gathering element :{id : 463003 , cellid : 330 }
+Sending map request !
+Gathering element :{id : 463003 , cellid : 330 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 480(2 cells)
+Confirmations du mouvement dans 480ms
+MapMovement received !
+Confirmation du movement dans : 480(2 cells)
+Confirmations du mouvement dans 480ms
+Mouvement confirmée !
+Mouvement confirmée !
+-5:610200
+-4:610200
+Gathering element :{id : 463004 , cellid : 382 }
+Sending map request !
+Gathering element :{id : 463004 , cellid : 382 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1190(6 cells)
+Confirmations du mouvement dans 1190ms
+MapMovement received !
+Confirmation du movement dans : 1190(6 cells)
+Confirmations du mouvement dans 1190ms
+Mouvement confirmée !
+Mouvement confirmée !
+-6:610200
+Gathering element :{id : 463005 , cellid : 305 }
+Sending map request !
+Gathering element :{id : 463005 , cellid : 305 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1785(9 cells)
+Confirmations du mouvement dans 1785ms
+MapMovement received !
+Confirmation du movement dans : 1785(9 cells)
+Confirmations du mouvement dans 1785ms
+Mouvement confirmée !
+Mouvement confirmée !
+-4:610200
+Gathering element :{id : 463007 , cellid : 369 }
+Sending map request !
+Gathering element :{id : 463007 , cellid : 369 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1530(8 cells)
+Confirmations du mouvement dans 1530ms
+MapMovement received !
+Confirmation du movement dans : 1530(8 cells)
+Confirmations du mouvement dans 1530ms
+Mouvement confirmée !
+Mouvement confirmée !
+Gathering element :{id : 463008 , cellid : 325 }
+Sending map request !
+Gathering element :{id : 463008 , cellid : 325 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 450(4 cells)
+Confirmations du mouvement dans 450ms
+MapMovement received !
+Confirmation du movement dans : 450(4 cells)
+Confirmations du mouvement dans 450ms
+Mouvement confirmée !
+Mouvement confirmée !
+-6:610200
+Gathering element :{id : 463009 , cellid : 341 }
+Sending map request !
+Gathering element :{id : 463009 , cellid : 341 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 425(2 cells)
+Confirmations du mouvement dans 425ms
+MapMovement received !
+Confirmation du movement dans : 425(2 cells)
+Confirmations du mouvement dans 425ms
+Mouvement confirmée !
+Mouvement confirmée !
+-4:610200
+Plus de ressources à récolter disponibles , on passe à la map suivante
+Calculating path...
+Processing key movements !
+Sending map request !
+[Aucun groupe:0:info][Trajet]Changement de carte, premiere cellid disponble
+Plus de ressources à récolter disponibles , on passe à la map suivante
+Calculating path...
+Processing key movements !
+Sending map request !
+[Aucun groupe:0:info][Trajet]Changement de carte, premiere cellid disponble
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1430(10 cells)
+Confirmations du mouvement dans 1430ms
+MapMovement received !
+Confirmation du movement dans : 1430(10 cells)
+Confirmations du mouvement dans 1430ms
+Mouvement confirmée !
+Key movements proccesed !
+Movement ok 
+Mouvement confirmée !
+Key movements proccesed !
+Movement ok 
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Gathering element :{id : 463301 , cellid : 64 }
+Sending map request !
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1835(12 cells)
+Confirmations du mouvement dans 1835ms
+Mouvement confirmée !
+-6:610200
+-4:610200
+Gathering element :{id : 463303 , cellid : 306 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1945(13 cells)
+Confirmations du mouvement dans 1945ms
+Mouvement confirmée !
+-5:610200
+-6:610200
+Gathering element :{id : 463305 , cellid : 263 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 425(2 cells)
+Confirmations du mouvement dans 425ms
+Mouvement confirmée !
+-4:610200
+-5:610200
+Gathering element :{id : 463311 , cellid : 221 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 480(2 cells)
+Confirmations du mouvement dans 480ms
+Mouvement confirmée !
+720234:610200
+Gathering element :{id : 463314 , cellid : 63 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1540(11 cells)
+Confirmations du mouvement dans 1540ms
+Mouvement confirmée !
+708905:610200
+708905:610200
+-6:610200
+708905:610200
+Gathering element :{id : 463313 , cellid : 213 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1785(9 cells)
+Confirmations du mouvement dans 1785ms
+Mouvement confirmée !
+-5:610200
+708905:610200
+Gathering element :{id : 463319 , cellid : 523 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 2215(14 cells)
+Confirmations du mouvement dans 2215ms
+719081:610200
+Mouvement confirmée !
+[InventoryManager]Can't find object for add : {"_messageType":"ObjectAddedMessage","object":{"_type":"ObjectItem","position":63,"objectGID":309,"effects":[],"objectUID":77583773,"quantity":1},"_isInitialized":true}
+708905:610200
+719081:610200
+-4:610200
+Gathering element :{id : 463324 , cellid : 239 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1880(13 cells)
+Confirmations du mouvement dans 1880ms
+Mouvement confirmée !
+-5:610200
+708905:610200
+-6:610200
+Plus de ressources à récolter disponibles , on passe à la map suivante
+Calculating path...
+Processing key movements !
+Sending map request !
+[Aucun groupe:0:info][Trajet]Changement de carte, premiere cellid disponble
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 4675(21 cells)
+Confirmations du mouvement dans 4675ms
+Mouvement confirmée !
+Key movements proccesed !
+Movement ok 
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Gathering element :{id : 462988 , cellid : 161 }
+Sending map request !
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1690(12 cells)
+Confirmations du mouvement dans 1690ms
+Mouvement confirmée !
+-4:610200
+-5:610200
+Gathering element :{id : 463006 , cellid : 354 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1700(9 cells)
+Confirmations du mouvement dans 1700ms
+Sequence ready !
+Mouvement confirmée !
+-6:610200
+-4:610200
+Plus de ressources à récolter disponibles , on passe à la map suivante
+Calculating path...
+Processing key movements !
+Sending map request !
+[Aucun groupe:0:info][Trajet]Changement de carte, premiere cellid disponble
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1280(9 cells)
+Confirmations du mouvement dans 1280ms
+Mouvement confirmée !
+Key movements proccesed !
+Movement ok 
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Gathering element :{id : 463306 , cellid : 285 }
+Sending map request !
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+-4:610200
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 2125(11 cells)
+Confirmations du mouvement dans 2125ms
+Mouvement confirmée !
+-6:610200
+Gathering element :{id : 463316 , cellid : 199 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 770(6 cells)
+Confirmations du mouvement dans 770ms
+Mouvement confirmée !
+-5:610200
+Gathering element :{id : 463317 , cellid : 440 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1945(13 cells)
+Confirmations du mouvement dans 1945ms
+Mouvement confirmée !
+-6:610200
+-4:610200
+Plus de ressources à récolter disponibles , on passe à la map suivante
+Calculating path...
+Processing key movements !
+Sending map request !
+[Aucun groupe:0:info][Trajet]Changement de carte, premiere cellid disponble
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 3060(13 cells)
+Confirmations du mouvement dans 3060ms
+Mouvement confirmée !
+Key movements proccesed !
+Movement ok 
+-5:610200
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Plus de ressources à récolter disponibles , on passe à la map suivante
+Calculating path...
+Processing key movements !
+Sending map request !
+[Aucun groupe:0:info][Trajet]Changement de carte, premiere cellid disponble
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 480(2 cells)
+Confirmations du mouvement dans 480ms
+Mouvement confirmée !
+Key movements proccesed !
+Movement ok 
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Gathering element :{id : 463310 , cellid : 243 }
+Sending map request !
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1275(8 cells)
+Confirmations du mouvement dans 1275ms
+Mouvement confirmée !
+-5:610200
+-6:610200
+Plus de ressources à récolter disponibles , on passe à la map suivante
+Calculating path...
+Processing key movements !
+Sending map request !
+[Aucun groupe:0:info][Trajet]Changement de carte, premiere cellid disponble
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 3145(14 cells)
+Confirmations du mouvement dans 3145ms
+Mouvement confirmée !
+Key movements proccesed !
+Movement ok 
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Plus de ressources à récolter disponibles , on passe à la map suivante
+Calculating path...
+Processing key movements !
+Sending map request !
+[Aucun groupe:0:info][Trajet]Changement de carte, premiere cellid disponble
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 480(2 cells)
+Confirmations du mouvement dans 480ms
+Mouvement confirmée !
+Key movements proccesed !
+Movement ok 
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Plus de ressources à récolter disponibles , on passe à la map suivante
+Calculating path...
+Processing key movements !
+Sending map request !
+[Aucun groupe:0:info][Trajet]Changement de carte, premiere cellid disponble
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 480(2 cells)
+Confirmations du mouvement dans 480ms
+Mouvement confirmée !
+Key movements proccesed !
+Movement ok 
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Plus de ressources à récolter disponibles , on passe à la map suivante
+Calculating path...
+Processing key movements !
+Sending map request !
+[Aucun groupe:0:info][Trajet]Changement de carte, premiere cellid disponble
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 480(2 cells)
+Confirmations du mouvement dans 480ms
+Mouvement confirmée !
+Key movements proccesed !
+Movement ok 
+-5:610200
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Gathering element :{id : 463304 , cellid : 278 }
+Sending map request !
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1445(9 cells)
+Confirmations du mouvement dans 1445ms
+Mouvement confirmée !
+-6:610200
+Gathering element :{id : 463309 , cellid : 255 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1615(10 cells)
+Confirmations du mouvement dans 1615ms
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Gathering element :{id : 463309 , cellid : 255 }
+Sending map request !
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+Mouvement confirmée !
+-5:610200
+Plus de ressources à récolter disponibles , on passe à la map suivante
+Calculating path...
+Processing key movements !
+Sending map request !
+[Aucun groupe:0:info][Trajet]Changement de carte, premiere cellid disponble
+Plus de ressources à récolter disponibles , on passe à la map suivante
+Calculating path...
+Processing key movements !
+Sending map request !
+[Aucun groupe:0:info][Trajet]Changement de carte, premiere cellid disponble
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 480(2 cells)
+Confirmations du mouvement dans 480ms
+MapMovement received !
+Confirmation du movement dans : 3910(18 cells)
+Confirmations du mouvement dans 3910ms
+MapMovement received !
+Confirmation du movement dans : 3910(18 cells)
+Confirmations du mouvement dans 3910ms
+Mouvement confirmée !
+-6:610200
+Mouvement confirmée !
+Key movements proccesed !
+Movement ok 
+Mouvement confirmée !
+Key movements proccesed !
+Movement ok 
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Gathering element :{id : 462987 , cellid : 174 }
+Sending map request !
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1500(11 cells)
+Confirmations du mouvement dans 1500ms
+Mouvement confirmée !
+-6:610200
+Gathering element :{id : 462993 , cellid : 290 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1220(9 cells)
+Confirmations du mouvement dans 1220ms
+Mouvement confirmée !
+-4:610200
+-5:610200
+Plus de ressources à récolter disponibles , on passe à la map suivante
+Calculating path...
+Processing key movements !
+Sending map request !
+[Aucun groupe:0:info][Trajet]Changement de carte, premiere cellid disponble
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 2700(19 cells)
+Confirmations du mouvement dans 2700ms
+Mouvement confirmée !
+Key movements proccesed !
+Movement ok 
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Gathering element :{id : 463307 , cellid : 467 }
+Sending map request !
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 5185(24 cells)
+Confirmations du mouvement dans 5185ms
+Mouvement confirmée !
+-4:610200
+Plus de ressources à récolter disponibles , on passe à la map suivante
+Calculating path...
+Processing key movements !
+Sending map request !
+[Aucun groupe:0:info][Trajet]Changement de carte, premiere cellid disponble
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 3570(15 cells)
+Confirmations du mouvement dans 3570ms
+Mouvement confirmée !
+Key movements proccesed !
+Movement ok 
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Plus de ressources à récolter disponibles , on passe à la map suivante
+Calculating path...
+Processing key movements !
+Sending map request !
+[Aucun groupe:0:info][Trajet]Changement de carte, premiere cellid disponble
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 480(2 cells)
+Confirmations du mouvement dans 480ms
+Mouvement confirmée !
+Key movements proccesed !
+Movement ok 
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Gathering element :{id : 463302 , cellid : 300 }
+Sending map request !
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 2020(10 cells)
+Confirmations du mouvement dans 2020ms
+Mouvement confirmée !
+-6:610200
+-4:610200
+Gathering element :{id : 463320 , cellid : 269 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 640(5 cells)
+Confirmations du mouvement dans 640ms
+Mouvement confirmée !
+-5:610200
+Gathering element :{id : 463322 , cellid : 77 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 2040(10 cells)
+Confirmations du mouvement dans 2040ms
+Mouvement confirmée !
+-6:610200
+Plus de ressources à récolter disponibles , on passe à la map suivante
+Calculating path...
+Processing key movements !
+Sending map request !
+[Aucun groupe:0:info][Trajet]Changement de carte, premiere cellid disponble
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1785(9 cells)
+Confirmations du mouvement dans 1785ms
+Mouvement confirmée !
+Key movements proccesed !
+Movement ok 
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Gathering element :{id : 462990 , cellid : 346 }
+Sending map request !
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 3020(21 cells)
+Confirmations du mouvement dans 3020ms
+Mouvement confirmée !
+-5:610200
+-4:610200
+Gathering element :{id : 462991 , cellid : 103 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1710(12 cells)
+Confirmations du mouvement dans 1710ms
+Mouvement confirmée !
+-6:610200
+Sequence ready !
+-5:610200
+Gathering element :{id : 462992 , cellid : 289 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 1240(9 cells)
+Confirmations du mouvement dans 1240ms
+Mouvement confirmée !
+-4:610200
+Gathering element :{id : 462994 , cellid : 347 }
+Sending map request !
+610200:610200
+MapMovement received !
+Confirmation du movement dans : 600(5 cells)
+Confirmations du mouvement dans 600ms
+Mouvement confirmée !
+[Aucun groupe:0:info][FightManager]Debut du combat !
+[Ia]Default loaded !
+{"call":"global-state-request"}
+Server request for state ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Process key movements...
+610200:610200
+Ack ready !
+novement ok
+Proceed!
+[Aucun groupe:0:info][Infos]<b>Miss-Lagertha</b> has failed the $challenge41 challenge.
+Turn ready ...
+-1:610200
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Process key movements...
+610200:610200
+Ack ready !
+novement ok
+Proceed!
+Turn ready ...
+-1:610200
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Fight]Debut du tours de jeux
+[Aucun groupe:0:info]Aucun sort dans la pile !
+[Aucun groupe:0:info]IA on se raproche
+Turn ready ...
+Turn ready ...
+[Aucun groupe:0:info][Infos]<b>Miss-Lagertha</b> has failed the $challenge41 challenge.
+Combat terminer !
+[Aucun groupe:0:info][Infos]You have lost <b>140</b> energy points.
+{"call":"global-state-request"}
+Server request for state ...
+{"call":"global-state-request"}
+Server request for state ...
+[Aucun groupe:0:info][Infos]Position saved.
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Sync]Regen par objet...
+[Aucun groupe:0:info][inventory]Bad quantity for object regen !
+[Sync]Impossible de faire la regen par objet, regen normale ...
+[Aucun groupe:0:info][Player]Debut de la regeneration pour 162pdv
+720444:610200
+614777:610200

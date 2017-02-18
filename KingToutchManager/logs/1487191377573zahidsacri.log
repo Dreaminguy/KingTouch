@@ -1,0 +1,423 @@
+Server request connecting ...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"ve/LYMpRm+YDCu3V"}
+Config loaded !
+{"key":"ddeaea1e-c9d3-46e6-97ba-029abc9e7417","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-15T21:43:00+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T00:43:00+01:00"}
+Api key : ddeaea1e-c9d3-46e6-97ba-029abc9e7417
+Game token : 4d1fed3c1e572ab188d30729fe013686
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=ve%2FLYMpRm%2BYDCu3V) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+[Aucun groupe:0:info]Identification success (1465968706047879037) !
+[Aucun groupe:0:info]Servers list received !
+[Aucun groupe:0:info][processServerSelection]...
+[Aucun groupe:0:info]Request for server infos (id : 403) ...
+Connection closed
+migrating...
+Connection opened !
+[Aucun groupe:0:info]Game connection opened !
+[Aucun groupe:0:success][processServerSelection]OK
+[Aucun groupe:0:info][processsCharacterSelection]...
+[Aucun groupe:0:info]Request for characters ...
+[Aucun groupe:0:info]Selecting frist character (Miss-Lagertha) ...
+Set default config for Miss-Lagertha
+[Aucun groupe:0:info][Inventory]Object : 68868169 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 68868170 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 68868171 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 68868172 selected for regen !
+Sequence ready !
+[Aucun groupe:0:info][Infos]Welcome to DOFUS, and welcome to the World of Twelve! 
+Remember that it is <b>strictly forbidden</b> to disclose your account name or password.
+[Aucun groupe:0:info][Infos]There will be a server maintenance in 11 hours, 46 minutes.
+{"call":"global-state-request"}
+Server request for state ...
+[InventoryManager]Items infos loaded !
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Trajet]No trajet loaded !
+Debug command received .
+[ { id: 38, skillId: 45 } ]
+38
+{ _type: 'InteractiveElement',
+  elementId: 463301,
+  elementTypeId: 38,
+  enabledSkills: [],
+  disabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193086,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElementWithAgeBonus',
+  elementId: 463302,
+  elementTypeId: 38,
+  enabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193078,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  disabledSkills: [],
+  ageBonus: 0,
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElementWithAgeBonus',
+  elementId: 463303,
+  elementTypeId: 38,
+  enabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193069,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  disabledSkills: [],
+  ageBonus: 0,
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElementWithAgeBonus',
+  elementId: 463304,
+  elementTypeId: 38,
+  enabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193087,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  disabledSkills: [],
+  ageBonus: 0,
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElementWithAgeBonus',
+  elementId: 463305,
+  elementTypeId: 38,
+  enabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193079,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  disabledSkills: [],
+  ageBonus: 0,
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElement',
+  elementId: 463306,
+  elementTypeId: 38,
+  enabledSkills: [],
+  disabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193071,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElement',
+  elementId: 463307,
+  elementTypeId: 38,
+  enabledSkills: [],
+  disabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193088,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElement',
+  elementId: 463308,
+  elementTypeId: 38,
+  enabledSkills: [],
+  disabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193080,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElementWithAgeBonus',
+  elementId: 463309,
+  elementTypeId: 38,
+  enabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193072,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  disabledSkills: [],
+  ageBonus: 0,
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElement',
+  elementId: 463310,
+  elementTypeId: 38,
+  enabledSkills: [],
+  disabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193089,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElement',
+  elementId: 463311,
+  elementTypeId: 38,
+  enabledSkills: [],
+  disabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193081,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElementWithAgeBonus',
+  elementId: 463312,
+  elementTypeId: 38,
+  enabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193073,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  disabledSkills: [],
+  ageBonus: 0,
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElement',
+  elementId: 463313,
+  elementTypeId: 38,
+  enabledSkills: [],
+  disabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193090,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElementWithAgeBonus',
+  elementId: 463314,
+  elementTypeId: 38,
+  enabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193082,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  disabledSkills: [],
+  ageBonus: 0,
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElement',
+  elementId: 463315,
+  elementTypeId: 38,
+  enabledSkills: [],
+  disabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193074,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElement',
+  elementId: 463316,
+  elementTypeId: 38,
+  enabledSkills: [],
+  disabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193091,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElementWithAgeBonus',
+  elementId: 463317,
+  elementTypeId: 38,
+  enabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193083,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  disabledSkills: [],
+  ageBonus: 0,
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElementWithAgeBonus',
+  elementId: 463318,
+  elementTypeId: 38,
+  enabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193075,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  disabledSkills: [],
+  ageBonus: 0,
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElementWithAgeBonus',
+  elementId: 463319,
+  elementTypeId: 38,
+  enabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193092,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  disabledSkills: [],
+  ageBonus: 0,
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElement',
+  elementId: 463320,
+  elementTypeId: 38,
+  enabledSkills: [],
+  disabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193084,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElementWithAgeBonus',
+  elementId: 463321,
+  elementTypeId: 38,
+  enabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193076,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  disabledSkills: [],
+  ageBonus: 0,
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElement',
+  elementId: 463322,
+  elementTypeId: 38,
+  enabledSkills: [],
+  disabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193068,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElement',
+  elementId: 463323,
+  elementTypeId: 38,
+  enabledSkills: [],
+  disabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193085,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  _name: 'Wheat' }
+38
+{ _type: 'InteractiveElement',
+  elementId: 463324,
+  elementTypeId: 38,
+  enabledSkills: [],
+  disabledSkills: 
+   [ { _type: 'InteractiveElementSkill',
+       skillId: 45,
+       skillInstanceUid: 193077,
+       _cursor: 4,
+       _name: 'Reap',
+       _parentJobId: 28,
+       _levelMin: 1,
+       _parentJobName: 'Farmer' } ],
+  _name: 'Wheat' }
+38
+TypeError: Cannot read property 'enabledSkills' of undefined
+    at exports.Gather.gatherable (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\engine\core\gather.js:26:34)
+    at exports.Gather.GatherFirstAvailableRessource (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\engine\core\gather.js:15:11)
+    at EventEmitter.bot.connection.dispatcher.on.e (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\engine\core\sync.js:27:19)
+    at emitOne (events.js:96:13)
+    at EventEmitter.emit (events.js:188:7)
+    at Primus.<anonymous> (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\network\clientConnection.js:75:19)
+    at emitTwo (events.js:106:13)
+    at Primus.emit (events.js:191:7)
+    at done (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\network\primus.js:2569:48)
+    at transform (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\network\primus.js:2540:30)

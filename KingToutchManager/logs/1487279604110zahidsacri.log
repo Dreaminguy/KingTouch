@@ -1,0 +1,130 @@
+Server request connecting ...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"eZpup2MBOJRxH8ij"}
+Config loaded !
+{"key":"28cc0dee-0a83-463c-8cfa-9ebe78d6dd72","account_id":112984462,"ip":"196.217.157.212","added_date":"2017-02-16T22:13:24+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-17T01:13:24+01:00"}
+Api key : 28cc0dee-0a83-463c-8cfa-9ebe78d6dd72
+Game token : b332bb3715dbf5d879494c290d317614
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=eZpup2MBOJRxH8ij) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+[Aucun groupe:0:info]3/3 in login queue...
+[Aucun groupe:0:info]2/2 in login queue...
+[Aucun groupe:0:info]0/0 in login queue...
+[Aucun groupe:0:info]0/0 in login queue...
+[Aucun groupe:0:info]Identification success (1465968706052777978) !
+[Aucun groupe:0:info]Servers list received !
+[Aucun groupe:0:info][processServerSelection]...
+[Aucun groupe:0:info]Request for server infos (id : 403) ...
+Connection closed
+migrating...
+Connection opened !
+[Aucun groupe:0:info]Game connection opened !
+[Aucun groupe:0:success][processServerSelection]OK
+[Aucun groupe:0:info][processsCharacterSelection]...
+[Aucun groupe:0:info]Request for characters ...
+[Aucun groupe:0:info]Selecting frist character (Miss-Lagertha) ...
+Set default config for Miss-Lagertha
+[Aucun groupe:0:info][Inventory]Object : 28765882 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 28765883 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 28765884 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 28765885 selected for regen !
+[InventoryManager]Items infos loaded !
+Sequence ready !
+[Aucun groupe:0:info][Infos]Welcome to DOFUS, and welcome to the World of Twelve! 
+Remember that it is <b>strictly forbidden</b> to disclose your account name or password.
+{"call":"global-state-request"}
+Server request for state ...
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Trajet]No trajet loaded !
+Debug command received .
+Gathering element :{id : 463005 , cellid : 305 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 510(2 cells)
+Confirmations du mouvement dans 510ms
+Mouvement confirmée !
+Debug command received .
+Gathering element :{id : 462993 , cellid : 290 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 425(2 cells)
+Confirmations du mouvement dans 425ms
+Mouvement confirmée !
+Debug command received .
+Gathering element :{id : 462990 , cellid : 346 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 510(2 cells)
+Confirmations du mouvement dans 510ms
+Mouvement confirmée !
+{"call":"trajet-load","data":{"trajet":{"trajet":{"fights":[],"recolte":[{"map":80219138,"dir":"right"},{"map":80219650,"dir":"left"}],"interactives":[],"moves":[],"bank":[]}}}}
+[mainProcessFrame]Ui request for trajet loading ...
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Aucun groupe:0:info][Trajt]Execution ...
+Gathering element :{id : 462992 , cellid : 289 }
+Sending map request !
+[Aucun groupe:0:info][Trajet]Execution de la récolte...
+MapMovement received !
+Confirmation du movement dans : 425(2 cells)
+Confirmations du mouvement dans 425ms
+Mouvement confirmée !
+Gathering element :{id : 463003 , cellid : 330 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 510(2 cells)
+Confirmations du mouvement dans 510ms
+Mouvement confirmée !
+Gathering element :{id : 462997 , cellid : 383 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 1190(6 cells)
+Confirmations du mouvement dans 1190ms
+Mouvement confirmée !
+Gathering element :{id : 463007 , cellid : 369 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 480(2 cells)
+Confirmations du mouvement dans 480ms
+Mouvement confirmée !
+Gathering element :{id : 463004 , cellid : 382 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 510(2 cells)
+Confirmations du mouvement dans 510ms
+Mouvement confirmée !
+Gathering element :{id : 463001 , cellid : 368 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 425(2 cells)
+Confirmations du mouvement dans 425ms
+Mouvement confirmée !
+Sequence ready !
+Gathering element :{id : 463006 , cellid : 354 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 510(2 cells)
+Confirmations du mouvement dans 510ms
+Mouvement confirmée !
+Gathering element :{id : 463009 , cellid : 341 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 510(2 cells)
+Confirmations du mouvement dans 510ms
+Mouvement confirmée !
+Gathering element :{id : 463008 , cellid : 325 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 425(2 cells)
+Confirmations du mouvement dans 425ms
+Mouvement confirmée !
+Gathering element :{id : 463002 , cellid : 215 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 850(5 cells)
+Confirmations du mouvement dans 850ms
+Mouvement confirmée !

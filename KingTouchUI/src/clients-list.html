@@ -69,6 +69,11 @@
       --paper-fab-background: #EF5458;
       --paper-fab-keyboard-focus-background: #DF4448;
     }
+        
+        .accompt-item:hover{
+            background-color:#c1c1c1;
+            cursor:pointer;
+        }
 
     @media (max-width: 960px) {
       .content {
@@ -114,14 +119,30 @@
 	
 	</style>
 	<!-- login box -->
-	<paper-dialog  modal name="connectd" id="connectd">
-		<h2>Charger un client</h2>
-		<paper-input value="{{username}}" always-float-label label="Nom de compte"></paper-input>
-		<paper-input value="{{password}}" always-float-label label="Mot de passe"></paper-input>
-		<div class="buttons">
-			<paper-button dialog-dismiss>Annuler</paper-button>
-			<paper-button dialog-confirm autofocus on-click="loadClient">Charger le client</paper-button>
-		</div>
+	<paper-dialog heading="Gestionnaire de comptes" modal name="connectd" id="connectd">
+        <h2 style="border-bottom:1px solid #737373; padding-bottom:24px;">Gestionnaire de Comptes</h2>
+        <div style="display:inline-block;">
+            <paper-input value="{{username}}" always-float-label label="Nom de compte"></paper-input>
+            <paper-input value="{{password}}" always-float-label label="Mot de passe"></paper-input>
+            <div class="buttons">
+                <paper-button dialog-dismiss>Fermer</paper-button>
+                <paper-button raised on-tap="addClient">Ajouter</paper-button>
+            </div>
+        </div>
+
+        <div  style="display:inline-block;">
+            <div style="height:128px; overflow-x:hidden; overflow-y:scroll;">
+                <template style="overlow-y:scroll;" is="dom-repeat" items="{{accompts}}">
+                    <div raised on-tap="clientItemTap" username="{{item.username}}" class="item accompt-item">
+                        <span>{{item.username}}</span>
+                    </div>
+                </template>
+            </div>
+            <div class="buttons">
+                <paper-button>Charger</paper-button>
+                <paper-button>Groupe</paper-button>
+            </div>
+        </div>
 	</paper-dialog>
     <!-- main panel -->
     <app-header-layout>
@@ -169,7 +190,7 @@
   </template>
 
   <script>
-  
+var readyToLoad = true;
   Polymer({
 
 		is: 'clients-list',
@@ -181,6 +202,13 @@
 			value: function() { return []; },
 			reflectToAttribute: true
 		},
+        accompts: {
+          type: Array,
+          observe: true,
+            notify: true,
+            reflectToAttribute: true,
+            value: function(){ return [] }
+        },
 		username: String,
 		password: String
     },
@@ -197,15 +225,32 @@
             }
 			this.clients = clients;
 		});
+        window.addEventListener("client-update",(m)=>{
+           for(var i in this.clients){
+               if(this.clients[i].accompt===m.detail.accompt){
+                   this.clients[i] = m.detail;
+                   console.log(m.accompt+" updated !");
+                   setClient(this.clients[i])
+                   return;
+               }
+           }
+            console.log("Can't find client ("+m.detail.accompt+") !");
+        });
 		window.addEventListener("load-client",(m)=>{
             console.log("client added");
 			this.push("clients",m.detail);
 			this.listenClient(m.detail.accompt)
 		});
+        window.addEventListener("accompts-list",(m)=>{
+            let accompts = m.detail;
+            this.set("accompts",accompts);
+            console.log("Accompts list received !");
+            console.log(accompts);
+        });
 	},
 
     selectClient: function(e){
-        setClient(e.model.get("item"));
+        sendUI("client-update-request",{ accompt : e.model.get("item").accompt });
     },
       
     listenClient: function(accompt) {
@@ -228,6 +273,7 @@
                 break;
             }
         });
+        readyToLoad= true;
     },
       
     unListenClient : function(accompt){
@@ -240,12 +286,45 @@
     },
       
 	showLoginBox: function(){
+         sendUI("accompts-request");
 	     connectd.open();
 	},
+      
+    clientItemTap: function(e){
+        if(readyToLoad === false){
+            console.log("Server not ready !");
+            return;
+        }
+        readyToLoad= false;
+        var un;
+        if(typeof e.target.getElementsByTagName("span")[0] != "undefined"){
+            un = e.target.getElementsByTagName("span")[0].textContent
+        }
+        else{
+            un = e.target.textContent;
+        }
+        
+        for(var i in this.accompts){
+            var a = this.accompts[i];
+            if(a.username == un){
+                if(this.accompts[i].enlabed == false){
+                    console.log("Loading canceled, client already connected !");
+                    return;
+                }
+                this.accompts[i].enlabed = false;
+            }
+        }
+               
+        sendUI("load",{"username":un});      
+
+        console.log("Ui request loading ...");
+    },
 	
-	loadClient: function(){
-		console.log("Request login for "+this.username);
-		sendUI("load",{ accompt : {"username":this.username,"password":this.password}});
+	addClient: function(){
+		console.log("Add accompt "+this.username);
+		sendUI("add-accompt",{"username":this.username, "password":this.password});
+        this.set("username","");
+        this.set("password","");
 	},
       
     disconnect: function(e){

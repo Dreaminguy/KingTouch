@@ -1,0 +1,601 @@
+Server request connecting ...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"3QaPRKB7RK731Rhm"}
+Config loaded !
+{"key":"6d5191a5-d8f3-4407-87a5-979eee5c8093","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-15T23:32:49+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T02:32:49+01:00"}
+Api key : 6d5191a5-d8f3-4407-87a5-979eee5c8093
+Game token : undefined
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=3QaPRKB7RK731Rhm) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+Connection closed
+[Aucun groupe:0:info]<span color="red">Connection closed, reloading client ...</span>
+Session for zahidsacri exported !
+Reconnecting undefined ...
+Rescuring session...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"VyA/o6/FdV1iHUSr"}
+Config loaded !
+{"key":"c5c5a83f-2aec-467a-a30c-b7050242aa81","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-15T23:32:54+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T02:32:54+01:00"}
+Api key : c5c5a83f-2aec-467a-a30c-b7050242aa81
+Game token : undefined
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=VyA%2Fo6%2FFdV1iHUSr) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+Connection closed
+[Aucun groupe:0:info]<span color="red">Connection closed, reloading client ...</span>
+Session for zahidsacri exported !
+Reconnecting undefined ...
+Rescuring session...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"NJwAfJsHyJtsXB1q"}
+Config loaded !
+{"key":"9ae213b5-554d-460e-b948-da633b7888a6","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-15T23:32:58+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T02:32:58+01:00"}
+Api key : 9ae213b5-554d-460e-b948-da633b7888a6
+Game token : baaf035c324e91be2cf2360e82c1c241
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=NJwAfJsHyJtsXB1q) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+[Aucun groupe:0:info]4/4 in login queue...
+[Aucun groupe:0:info]3/3 in login queue...
+[Aucun groupe:0:info]2/3 in login queue...
+[Aucun groupe:0:info]0/2 in login queue...
+[Aucun groupe:0:info]Identification success (1465968706048322092) !
+[Aucun groupe:0:info]Servers list received !
+[Aucun groupe:0:info][processServerSelection]...
+[Aucun groupe:0:info]Request for server infos (id : 403) ...
+Connection closed
+migrating...
+Connection opened !
+[Aucun groupe:0:info]Game connection opened !
+[Aucun groupe:0:success][processServerSelection]OK
+[Aucun groupe:0:info][processsCharacterSelection]...
+[Aucun groupe:0:info]Request for characters ...
+[Aucun groupe:0:info]Selecting frist character (Miss-Lagertha) ...
+Set default config for Miss-Lagertha
+[Aucun groupe:0:info][Inventory]Object : 73431734 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73431735 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73431736 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73431737 selected for regen !
+Sequence ready !
+[Aucun groupe:0:info][Infos]Welcome to DOFUS, and welcome to the World of Twelve! 
+Remember that it is <b>strictly forbidden</b> to disclose your account name or password.
+[Aucun groupe:0:info][Infos]There will be a server maintenance in 9 hours, 56 minutes.
+[InventoryManager]Items infos loaded !
+{"call":"global-state-request"}
+Server request for state ...
+[ { _type: 'StatedElement',
+    elementId: 463311,
+    elementCellId: 221,
+    elementState: 0 } ]
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Trajet]No trajet loaded !
+Debug command received .
+[ { _type: 'InteractiveElementSkill',
+    skillId: 45,
+    skillInstanceUid: 193086,
+    _cursor: 4,
+    _name: 'Reap',
+    _parentJobId: 28,
+    _levelMin: 1,
+    _parentJobName: 'Farmer' } ]
+Gathering element :{id : 463301 , cellid : 64 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 1495(10 cells)
+Confirmations du mouvement dans 1495ms
+Mouvement confirmée !
+[ { _type: 'StatedElement',
+    elementId: 463301,
+    elementCellId: 64,
+    elementState: 2 } ]
+Unknow actor type {"_messageType":"GameRolePlayShowActorMessage","informations":{"_type":"GameRolePlayMerchantInformations","contextualId":602096,"look":{"_type":"EntityLook","bonesId":1,"skins":[80,2125,460,461,462,590],"indexedColors":[17182311,36695510,65100570,75526725,85003925,121122003,149807889],"scales":[140],"subentities":[{"_type":"SubEntity","bindingPointCategory":5,"bindingPointIndex":0,"subEntityLook":{"_type":"EntityLook","bonesId":237,"skins":[],"indexedColors":[17182311,36695510,65100570,75526725,85003925,121122003,149807889],"scales":[],"subentities":[]}}]},"disposition":{"_type":"EntityDispositionInformations","cellId":374,"direction":1},"name":"Kun-Bilipe","sellType":3,"options":[{"_type":"HumanOptionGuild","guildInformations":{"_type":"GuildInformations","guildId":3505,"guildName":"Eternal Ring","guildEmblem":{"_type":"GuildEmblem","symbolShape":140,"symbolColor":15590161,"backgroundShape":21,"backgroundColor":3681491}}}]},"_isInitialized":true}
+[ { _type: 'StatedElement',
+    elementId: 463301,
+    elementCellId: 64,
+    elementState: 1 } ]
+Debug command received .
+[ { _type: 'InteractiveElementSkill',
+    skillId: 45,
+    skillInstanceUid: 193081,
+    _cursor: 4,
+    _name: 'Reap',
+    _parentJobId: 28,
+    _levelMin: 1,
+    _parentJobName: 'Farmer' } ]
+Gathering element :{id : 463311 , cellid : 221 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 1345(9 cells)
+Confirmations du mouvement dans 1345ms
+Mouvement confirmée !
+[ { _type: 'StatedElement',
+    elementId: 463311,
+    elementCellId: 221,
+    elementState: 2 } ]
+[ { _type: 'StatedElement',
+    elementId: 463311,
+    elementCellId: 221,
+    elementState: 1 } ]
+[ { _type: 'StatedElement',
+    elementId: 463302,
+    elementCellId: 300,
+    elementState: 0 } ]
+[ { _type: 'StatedElement',
+    elementId: 463304,
+    elementCellId: 278,
+    elementState: 0 } ]
+[ { _type: 'StatedElement',
+    elementId: 463307,
+    elementCellId: 467,
+    elementState: 0 } ]
+Debug command received .
+[ { _type: 'InteractiveElementSkill',
+    skillId: 45,
+    skillInstanceUid: 193078,
+    _cursor: 4,
+    _name: 'Reap',
+    _parentJobId: 28,
+    _levelMin: 1,
+    _parentJobName: 'Farmer' } ]
+Gathering element :{id : 463302 , cellid : 300 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 1700(8 cells)
+Confirmations du mouvement dans 1700ms
+Mouvement confirmée !
+[ { _type: 'StatedElement',
+    elementId: 463302,
+    elementCellId: 300,
+    elementState: 2 } ]
+[ { _type: 'StatedElement',
+    elementId: 463302,
+    elementCellId: 300,
+    elementState: 1 } ]
+Debug command received .
+[ { _type: 'InteractiveElementSkill',
+    skillId: 45,
+    skillInstanceUid: 193087,
+    _cursor: 4,
+    _name: 'Reap',
+    _parentJobId: 28,
+    _levelMin: 1,
+    _parentJobName: 'Farmer' } ]
+Gathering element :{id : 463304 , cellid : 278 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 1425(8 cells)
+Confirmations du mouvement dans 1425ms
+Mouvement confirmée !
+[ { _type: 'StatedElement',
+    elementId: 463304,
+    elementCellId: 278,
+    elementState: 2 } ]
+[ { _type: 'StatedElement',
+    elementId: 463304,
+    elementCellId: 278,
+    elementState: 1 } ]
+[ { _type: 'StatedElement',
+    elementId: 463305,
+    elementCellId: 263,
+    elementState: 0 } ]
+Debug command received .
+[ { _type: 'InteractiveElementSkill',
+    skillId: 45,
+    skillInstanceUid: 193079,
+    _cursor: 4,
+    _name: 'Reap',
+    _parentJobId: 28,
+    _levelMin: 1,
+    _parentJobName: 'Farmer' } ]
+Gathering element :{id : 463305 , cellid : 263 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 480(2 cells)
+Confirmations du mouvement dans 480ms
+Mouvement confirmée !
+[ { _type: 'StatedElement',
+    elementId: 463305,
+    elementCellId: 263,
+    elementState: 2 } ]
+[ { _type: 'StatedElement',
+    elementId: 463305,
+    elementCellId: 263,
+    elementState: 1 } ]
+Debug command received .
+[ { _type: 'InteractiveElementSkill',
+    skillId: 45,
+    skillInstanceUid: 193088,
+    _cursor: 4,
+    _name: 'Reap',
+    _parentJobId: 28,
+    _levelMin: 1,
+    _parentJobName: 'Farmer' } ]
+Gathering element :{id : 463307 , cellid : 467 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 2890(13 cells)
+Confirmations du mouvement dans 2890ms
+Mouvement confirmée !
+[ { _type: 'StatedElement',
+    elementId: 463307,
+    elementCellId: 467,
+    elementState: 2 } ]
+[ { _type: 'StatedElement',
+    elementId: 463307,
+    elementCellId: 467,
+    elementState: 1 } ]
+Unknow game context remove element {"_messageType":"GameContextRemoveElementMessage","id":-6,"_isInitialized":true}
+Debug command received .
+[ { _type: 'InteractiveElementSkill',
+    skillId: 45,
+    skillInstanceUid: 193090,
+    _cursor: 4,
+    _name: 'Reap',
+    _parentJobId: 28,
+    _levelMin: 1,
+    _parentJobName: 'Farmer' } ]
+Gathering element :{id : 463313 , cellid : 213 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 1640(11 cells)
+Confirmations du mouvement dans 1640ms
+[ { _type: 'StatedElement',
+    elementId: 463306,
+    elementCellId: 285,
+    elementState: 0 } ]
+[ { _type: 'StatedElement',
+    elementId: 463308,
+    elementCellId: 510,
+    elementState: 0 } ]
+[ { _type: 'StatedElement',
+    elementId: 463310,
+    elementCellId: 243,
+    elementState: 0 } ]
+Mouvement confirmée !
+[ { _type: 'StatedElement',
+    elementId: 463313,
+    elementCellId: 213,
+    elementState: 2 } ]
+[ { _type: 'StatedElement',
+    elementId: 463313,
+    elementCellId: 213,
+    elementState: 1 } ]
+Sequence ready !
+[ { _type: 'StatedElement',
+    elementId: 463320,
+    elementCellId: 269,
+    elementState: 2 } ]
+[ { _type: 'StatedElement',
+    elementId: 463320,
+    elementCellId: 269,
+    elementState: 1 } ]
+[ { _type: 'StatedElement',
+    elementId: 463310,
+    elementCellId: 243,
+    elementState: 2 } ]
+Debug command received .
+[ { _type: 'InteractiveElementSkill',
+    skillId: 45,
+    skillInstanceUid: 193071,
+    _cursor: 4,
+    _name: 'Reap',
+    _parentJobId: 28,
+    _levelMin: 1,
+    _parentJobName: 'Farmer' } ]
+Gathering element :{id : 463306 , cellid : 285 }
+Sending map request !
+MapMovement received !
+Confirmation du movement dans : 850(3 cells)
+Confirmations du mouvement dans 850ms
+[ { _type: 'StatedElement',
+    elementId: 463303,
+    elementCellId: 306,
+    elementState: 0 } ]
+Mouvement confirmée !
+[ { _type: 'StatedElement',
+    elementId: 463306,
+    elementCellId: 285,
+    elementState: 2 } ]
+[ { _type: 'StatedElement',
+    elementId: 463310,
+    elementCellId: 243,
+    elementState: 1 } ]
+[ { _type: 'StatedElement',
+    elementId: 463318,
+    elementCellId: 214,
+    elementState: 2 } ]
+[ { _type: 'StatedElement',
+    elementId: 463306,
+    elementCellId: 285,
+    elementState: 1 } ]
+[ { _type: 'StatedElement',
+    elementId: 463318,
+    elementCellId: 214,
+    elementState: 1 } ]
+[ { _type: 'StatedElement',
+    elementId: 463317,
+    elementCellId: 440,
+    elementState: 2 } ]
+[ { _type: 'StatedElement',
+    elementId: 463317,
+    elementCellId: 440,
+    elementState: 1 } ]
+zahidsacri has prolonged inactivity !
+Reconnection request ...
+Session for zahidsacri exported !
+Reconnecting undefined ...
+Rescuring session...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"FZfy+vAi4HukyZkY"}
+Config loaded !
+{"key":"1bf388ef-2af7-417a-b820-20a29ed77679","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-15T23:37:51+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T02:37:51+01:00"}
+Api key : 1bf388ef-2af7-417a-b820-20a29ed77679
+Game token : 72fb2dacb1ff49fb58b747126af68a96
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=FZfy%2BvAi4HukyZkY) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+[Aucun groupe:0:info]2/2 in login queue...
+[Aucun groupe:0:info]0/0 in login queue...
+[Aucun groupe:0:info]0/0 in login queue...
+[Aucun groupe:0:info]Identification success (1465968706048340840) !
+[Aucun groupe:0:info]Servers list received !
+[Aucun groupe:0:info][processServerSelection]...
+[Aucun groupe:0:info]Request for server infos (id : 403) ...
+Connection closed
+migrating...
+Connection opened !
+[Aucun groupe:0:info]Game connection opened !
+Connection closed
+[Aucun groupe:0:info]<span color="red">Connection closed, reloading client ...</span>
+Session for zahidsacri exported !
+[Aucun groupe:0:success][processServerSelection]OK
+[Aucun groupe:0:info][processsCharacterSelection]...
+[Aucun groupe:0:info]Request for characters ...
+[Aucun groupe:0:info]Selecting frist character (Miss-Lagertha) ...
+Set default config for Miss-Lagertha
+[Aucun groupe:0:info][Inventory]Object : 73636408 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73636409 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73636410 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73636411 selected for regen !
+Sequence ready !
+[Aucun groupe:0:info][Infos]Welcome to DOFUS, and welcome to the World of Twelve! 
+Remember that it is <b>strictly forbidden</b> to disclose your account name or password.
+[Aucun groupe:0:info][Infos]There will be a server maintenance in 9 hours, 52 minutes.
+[InventoryManager]Items infos loaded !
+{"call":"global-state-request"}
+Server request for state ...
+Reconnecting undefined ...
+Rescuring session...
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"mYfRVSMI6owPQtf5"}
+Config loaded !
+[Trajet]No trajet loaded !
+{"key":"ef006273-38b6-4a98-b0cd-91e1c5b95242","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-15T23:37:56+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T02:37:56+01:00"}
+Api key : ef006273-38b6-4a98-b0cd-91e1c5b95242
+Game token : 2b9a442c48ff2d71cd2bd8c589cb7dea
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=mYfRVSMI6owPQtf5) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+[Aucun groupe:0:info]2/2 in login queue...
+[Aucun groupe:0:info]1/2 in login queue...
+[Aucun groupe:0:info]0/1 in login queue...
+[Aucun groupe:0:info]Identification success (1465968706048341211) !
+[Aucun groupe:0:info]Servers list received !
+[Aucun groupe:0:info][processServerSelection]...
+[Aucun groupe:0:info]Request for server infos (id : 403) ...
+Connection closed
+migrating...
+Connection opened !
+[Aucun groupe:0:info]Game connection opened !
+[Aucun groupe:0:success][processServerSelection]OK
+[Aucun groupe:0:info][processsCharacterSelection]...
+[Aucun groupe:0:info]Request for characters ...
+Connection closed
+[Aucun groupe:0:info]<span color="red">Connection closed, reloading client ...</span>
+Session for zahidsacri exported !
+[Aucun groupe:0:info]Selecting frist character (Miss-Lagertha) ...
+Set default config for Miss-Lagertha
+[Aucun groupe:0:info][Inventory]Object : 73640960 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73640961 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73640962 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73640963 selected for regen !
+Sequence ready !
+[Aucun groupe:0:info][Infos]Welcome to DOFUS, and welcome to the World of Twelve! 
+Remember that it is <b>strictly forbidden</b> to disclose your account name or password.
+[Aucun groupe:0:info][Infos]There will be a server maintenance in 9 hours, 51 minutes.
+[InventoryManager]Items infos loaded !
+{"call":"global-state-request"}
+Server request for state ...
+Reconnecting undefined ...
+Rescuring session...
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"YeOT4wsEceFsBNbq"}
+Config loaded !
+[Trajet]No trajet loaded !
+{"key":"72de39b8-1c4e-4ca7-8cfe-280f5dba8a56","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-15T23:38:02+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T02:38:02+01:00"}
+Api key : 72de39b8-1c4e-4ca7-8cfe-280f5dba8a56
+Game token : df1a7e30052850bb1b6c0effce4b3f2e
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=YeOT4wsEceFsBNbq) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+[Aucun groupe:0:info]2/2 in login queue...
+[Aucun groupe:0:info]0/1 in login queue...
+[Aucun groupe:0:info]Identification success (1465968706048341494) !
+[Aucun groupe:0:info]Servers list received !
+[Aucun groupe:0:info][processServerSelection]...
+[Aucun groupe:0:info]Request for server infos (id : 403) ...
+Connection closed
+migrating...
+Connection opened !
+[Aucun groupe:0:info]Game connection opened !
+Connection closed
+[Aucun groupe:0:info]<span color="red">Connection closed, reloading client ...</span>
+Session for zahidsacri exported !
+[Aucun groupe:0:success][processServerSelection]OK
+[Aucun groupe:0:info][processsCharacterSelection]...
+[Aucun groupe:0:info]Request for characters ...
+[Aucun groupe:0:info]Selecting frist character (Miss-Lagertha) ...
+Set default config for Miss-Lagertha
+[Aucun groupe:0:info][Inventory]Object : 73642995 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73642996 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73642997 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73642998 selected for regen !
+[InventoryManager]Items infos loaded !
+Sequence ready !
+[Aucun groupe:0:info][Infos]Welcome to DOFUS, and welcome to the World of Twelve! 
+Remember that it is <b>strictly forbidden</b> to disclose your account name or password.
+[Aucun groupe:0:info][Infos]There will be a server maintenance in 9 hours, 51 minutes.
+{"call":"global-state-request"}
+Server request for state ...
+Reconnecting undefined ...
+Rescuring session...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"3xHBjfosGtkU2BUy"}
+Config loaded !
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+{"key":"04a64b5a-69d5-47b6-bd9e-3bb2d8032106","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-15T23:38:07+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T02:38:07+01:00"}
+Api key : 04a64b5a-69d5-47b6-bd9e-3bb2d8032106
+Game token : 5e05f05680db56e708ba225c1ebf7207
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=3xHBjfosGtkU2BUy) ...
+[Trajet]No trajet loaded !
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+[Aucun groupe:0:info]2/2 in login queue...
+[Aucun groupe:0:info]0/0 in login queue...
+[Aucun groupe:0:info]1/2 in login queue...
+[Aucun groupe:0:info]0/1 in login queue...
+[Aucun groupe:0:info]Identification success (1465968706048341846) !
+[Aucun groupe:0:info]Servers list received !
+[Aucun groupe:0:info][processServerSelection]...
+[Aucun groupe:0:info]Request for server infos (id : 403) ...
+Connection closed
+migrating...
+Connection opened !
+[Aucun groupe:0:info]Game connection opened !
+[Aucun groupe:0:success][processServerSelection]OK
+[Aucun groupe:0:info][processsCharacterSelection]...
+[Aucun groupe:0:info]Request for characters ...
+[Aucun groupe:0:info]Selecting frist character (Miss-Lagertha) ...
+Connection closed
+[Aucun groupe:0:info]<span color="red">Connection closed, reloading client ...</span>
+Session for zahidsacri exported !
+Set default config for Miss-Lagertha
+[Aucun groupe:0:info][Inventory]Object : 73648203 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73648204 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73648205 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73648206 selected for regen !
+Sequence ready !
+[Aucun groupe:0:info][Infos]Welcome to DOFUS, and welcome to the World of Twelve! 
+Remember that it is <b>strictly forbidden</b> to disclose your account name or password.
+[Aucun groupe:0:info][Infos]There will be a server maintenance in 9 hours, 51 minutes.
+[InventoryManager]Items infos loaded !
+{"call":"global-state-request"}
+Server request for state ...
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+Reconnecting undefined ...
+Rescuring session...
+[Trajet]No trajet loaded !
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"S2Dseb2GhbLEk5wO"}
+Config loaded !
+{"key":"b1f7b62a-ee05-4e7d-91e2-e82849b17f8c","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-15T23:38:13+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T02:38:13+01:00"}
+Api key : b1f7b62a-ee05-4e7d-91e2-e82849b17f8c
+Game token : 2298b5ee1097be692adf878dc48d2d7a
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=S2Dseb2GhbLEk5wO) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+[Aucun groupe:0:info]2/2 in login queue...
+[Aucun groupe:0:info]0/1 in login queue...
+[Aucun groupe:0:info]Identification success (1465968706048342221) !
+[Aucun groupe:0:info]Servers list received !
+[Aucun groupe:0:info][processServerSelection]...
+[Aucun groupe:0:info]Request for server infos (id : 403) ...
+Connection closed
+migrating...
+Connection opened !
+[Aucun groupe:0:info]Game connection opened !
+[Aucun groupe:0:success][processServerSelection]OK
+[Aucun groupe:0:info][processsCharacterSelection]...
+[Aucun groupe:0:info]Request for characters ...
+Connection closed
+[Aucun groupe:0:info]<span color="red">Connection closed, reloading client ...</span>
+Session for zahidsacri exported !
+[Aucun groupe:0:info]Selecting frist character (Miss-Lagertha) ...
+Set default config for Miss-Lagertha
+[Aucun groupe:0:info][Inventory]Object : 73651021 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73651022 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73651023 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73651024 selected for regen !
+[InventoryManager]Items infos loaded !
+Sequence ready !
+[Aucun groupe:0:info][Infos]Welcome to DOFUS, and welcome to the World of Twelve! 
+Remember that it is <b>strictly forbidden</b> to disclose your account name or password.
+[Aucun groupe:0:info][Infos]There will be a server maintenance in 9 hours, 51 minutes.
+{"call":"global-state-request"}
+Server request for state ...
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+Reconnecting undefined ...
+Rescuring session...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"/ROFRSEGqEzxo5vL"}
+Config loaded !
+[Trajet]No trajet loaded !
+{"key":"dae815f6-366e-4889-bff6-4adaf89427d3","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-15T23:38:18+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T02:38:18+01:00"}
+Api key : dae815f6-366e-4889-bff6-4adaf89427d3
+Game token : undefined
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=%2FROFRSEGqEzxo5vL) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+Connection closed
+[Aucun groupe:0:info]<span color="red">Connection closed, reloading client ...</span>
+Session for zahidsacri exported !
+Reconnecting undefined ...
+Rescuring session...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"gObzBUHpjFMY5gc/"}
+Config loaded !
+{"key":"34a08f6b-bdf4-4b39-8617-dcffcb9a24fa","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-15T23:38:22+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T02:38:22+01:00"}
+Api key : 34a08f6b-bdf4-4b39-8617-dcffcb9a24fa
+Game token : edcd1d27433fe3569f84c090b0f58d9f
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=gObzBUHpjFMY5gc%2F) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+[Aucun groupe:0:info]2/2 in login queue...
+[Aucun groupe:0:info]0/0 in login queue...
+[Aucun groupe:0:info]1/2 in login queue...
+[Aucun groupe:0:info]0/1 in login queue...
+[Aucun groupe:0:info]Identification success (1465968706048342802) !
+[Aucun groupe:0:info]Servers list received !
+[Aucun groupe:0:info][processServerSelection]...
+[Aucun groupe:0:info]Request for server infos (id : 403) ...
+Connection closed
+migrating...
+Connection opened !
+[Aucun groupe:0:info]Game connection opened !
+[Aucun groupe:0:success][processServerSelection]OK
+[Aucun groupe:0:info][processsCharacterSelection]...
+[Aucun groupe:0:info]Request for characters ...
+[Aucun groupe:0:info]Selecting frist character (Miss-Lagertha) ...
+Connection closed
+[Aucun groupe:0:info]<span color="red">Connection closed, reloading client ...</span>
+Session for zahidsacri exported !
+Set default config for Miss-Lagertha
+[Aucun groupe:0:info][Inventory]Object : 73658980 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73658981 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73658982 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 73658983 selected for regen !

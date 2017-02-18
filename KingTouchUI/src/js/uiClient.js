@@ -4,7 +4,14 @@ var selectedClient;
 function setClient(client){
     console.log("client selected ! "+JSON.stringify(client));
     selectedClient = client;
-}
+		window.dispatchEvent(new CustomEvent(
+			"selected-client-changed",
+			{
+				detail: client,
+				bubbles: true,
+				cancelable: false
+			}
+		));}
 function connectUI()
 {
 	wsClient = new WebSocket(UI_SERVER,'echo-protocol');

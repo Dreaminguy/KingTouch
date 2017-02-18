@@ -132,6 +132,7 @@ exports.getInventoryInfos = function(){
     var inventory = [];
     
     for(var i in bot.currentBot.data.inventoryManager.objects){
+        try{
         base = bot.currentBot.data.inventoryManager.objects[i];
         var item = {
             id: i,
@@ -140,7 +141,7 @@ exports.getInventoryInfos = function(){
             weight: base.static.realWeight,
             sellMode: 0,
             quantity: base.quantity,
-            level: base.static.level
+            level: base.static.level ? base.static.level : 0
         }
         item.imageUrl = "https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15/gfx/items/"+base.static.iconId+".png";
         
@@ -150,8 +151,11 @@ exports.getInventoryInfos = function(){
                 sell.sellMode = sell.mode;
             }
         }
-        
         inventory.push(item);
+        }
+        catch(e){
+            console.log("Undefined item "+item.id);
+        }
     }
     
     return inventory;

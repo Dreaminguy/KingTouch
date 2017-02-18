@@ -11,44 +11,49 @@ var compressPath = require("./../../../core/utils/pathfinding.js").compressPath;
 var getMapPoint = require("./../../../core/utils/pathfinding.js").getMapPoint;
 var getCellsWithDirection = require("./../../../core/utils/pathfinding.js").getCellsWithDirection;
 exports.processKeyMovement = function(bot,keyMovements,callBack,dontConfirm){
+    var confirmTimeOut;
 	if(typeof dontConfirm == "undefined"){
 		dontConfirm=false;
 	}
 	if(keyMovements.length <= 1){
-		console.log("pas de mouvement à faire wesh x)")
-		return callBack(true);
-	}
+ 		console.log("pas de mouvement à faire wesh x)")
+ 		return callBack(true);
+ 	}
+
 	var wrap = EventWrapper(bot.connection.dispatcher,function(result){
 		callBack(result);
 	});
+    
 
-	wrap("GameMapNoMovementMessage",function(m){
-		console.log("Mouvement échoué .");
-		wrap.done(false)
-	});
+    wrap("GameMapNoMovementMessage",function(m){
+ 		console.log("Mouvement échoué .");
+        clearTimeout(confirmTimeOut);
+ 		wrap.done(false)
+  	});
 	wrap("GameMapMovementMessage",function(m){
 		if(m.actorId == bot.data.characterInfos.id){
             console.log("MapMovement received !");
 			var moveMode =1;
 			var timeOut =  getMovementDuration(keyMovements);
-            console.log("Confirmation du movement dans : "+timeOut+ "ms("+keyMovements.length+" cells)");
+            console.log("Confirmation du movement dans : "+timeOut+ "("+keyMovements.length+" cells)");
 
-			setTimeout(function(){
+			confirmTimeOut= setTimeout(function(){
 				if(bot.data.context == "ROLEPLAY") bot.data.state="READY";
 				if(dontConfirm){
 					console.log("Mouvement efectuer, aucune confimation !");
 				}
 				else{
 					bot.connection.sendMessage("GameMapMovementConfirmMessage");
-					console.log("Mouvement confirmé !");
+					console.log("Mouvement confirmée !");
 				}
-				
+    
 				wrap.done(true);
 			},timeOut);
+			console.log("Confirmations du mouvement dans "+timeOut+"ms");
 		}
 	});
+    console.log(keyMovements);
 	console.log("Sending map request !");
-	console.log(keyMovements);
 	bot.connection.sendMessage("GameMapMovementRequestMessage",{keyMovements:compressPath(keyMovements),mapId:bot.data.mapManager.mapId});
 
 

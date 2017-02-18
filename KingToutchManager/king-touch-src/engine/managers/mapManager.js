@@ -114,40 +114,46 @@ exports.MapManager.prototype.checkChangeMapCell = function(cellId,direction){//t
 		return false;
 	}
 }
-exports.MapManager.prototype.getRandomCellId = function(direction,source)
-{
+exports.MapManager.prototype.getRandomCellId = function(direction,source,wantRandom){
 	source =this.bot.data.actorsManager.actors[this.bot.data.characterInfos.id].disposition.cellId;
-	var selected;
-	var minDist=0;
-	for(var i = 0; i<559;i++){
-		if(this.checkChangeMapCell(i,direction))
-		{
-			if(minDist==0 && this.getDistance(i,source) > 1){
-				minDist=this.getDistance(source,i);
-				selected=i;
-			}
-			else{
-				var newDist=this.getDistance(source,i);
-				if(newDist<minDist && this.getDistance(i,source) > 1){
-					minDist=newDist;
+	occupiedCells = this.bot.data.actorsManager.getOccupiedCells();
+	if(wantRandom)
+	{
+		var selected;
+		var minDist=0;
+		for(var i = 0; i<559;i++){
+			if(this.checkChangeMapCell(i,direction) && i != source && !occupiedCells[i])
+			{
+				if(minDist==0 && this.getDistance(i,source) > 1){
+					minDist=this.getDistance(source,i);
 					selected=i;
+				}
+				else{
+					var newDist=this.getDistance(source,i);
+					if(newDist<minDist && this.getDistance(i,source) > 1){
+						minDist=newDist;
+						selected=i;
+					}
 				}
 			}
 		}
+	
+		return selected;
 	}
-
-	return selected;
-	var possibleCells =[];//todo à voir
-        for (var j = 0; j < 559; j++) {
-            if (this.checkChangeMapCell(j, direction) && i != source) {
-            	possibleCells.push(j);
+	else
+	{
+		var possibleCells =[];//todo à voir
+	        for (var j = 0; j < 559; j++) {
+	            if (this.checkChangeMapCell(j, direction) && j != source && !occupiedCells[j]) {
+	            	possibleCells.push(j);
+				}
 			}
-		}
-	function randomIntFromInterval(min,max)
-    {
-        return Math.floor(Math.random()*(max-min+1)+min);
-    }
-    return possibleCells[randomIntFromInterval(0,possibleCells.length - 1)];
+		function randomIntFromInterval(min,max)
+	    {
+	        return Math.floor(Math.random()*(max-min+1)+min);
+	    }
+	    return possibleCells[randomIntFromInterval(0,possibleCells.length - 1)];
+	}
 }
 /**
   * @descritption gives the interactives with the desired id(static id not dynamic one)

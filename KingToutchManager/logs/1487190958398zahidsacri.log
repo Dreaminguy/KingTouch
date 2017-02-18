@@ -1,0 +1,114 @@
+Server request connecting ...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"GYQCATX1VTJQkfN8"}
+Config loaded !
+{"key":"b7bff1e5-3944-4e80-b0fb-fbb1a8f086be","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-15T21:36:00+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T00:36:00+01:00"}
+Api key : b7bff1e5-3944-4e80-b0fb-fbb1a8f086be
+Game token : undefined
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=GYQCATX1VTJQkfN8) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+Connection closed
+[Aucun groupe:0:info]<span color="red">Connection closed, reloading client ...</span>
+Session for zahidsacri exported !
+Reconnecting undefined ...
+Rescuring session...
+{"assetsUrl":"https://ankama.akamaized.net/games/dofus-tablette/assets/2.15.15","analytics":{"wizAnalytics":{"localytics":{"token":"9f0bf865fd57d22f0bbea56-cd08f12a-8138-11e5-7c24-00736b041834","options":{"sessionTimeoutSeconds":60,"namespace":"dofus-production"}}},"ankAnalytics":{"debug":false,"analog":false,"useUrlMap":true}},"adjust":{"appToken":"7j60imkfu60w","environment":"EnvironmentProduction"},"logging":{"groups":false,"logLevels":{"time":0,"verbose":0,"debug":1,"info":2,"notice":3,"warning":4,"error":5,"critical":6,"alert":7,"emergency":8},"config":{"console":["none"],"server":["error","critical","alert","emergency"]},"disableOverride":false},"dataUrl":"https://proxyconnection.touch.dofus.com","haapi":{"id":18,"url":"https://haapi.ankama.com/json/Ankama/v2"},"serverLanguages":["en","de","es","fr","it","pt"],"failoverLanguage":"en","uiUrl":"https://proxyconnection.touch.dofus.com/assets","language":"en","sessionId":"T2mLpOM96ylc5ZHd"}
+Config loaded !
+{"key":"e93435fa-8e7d-4cce-b9de-8227de9be5d6","account_id":112984462,"ip":"41.251.25.85","added_date":"2017-02-15T21:36:06+01:00","meta":[],"data":{},"access":[],"refresh_token":null,"expiration_date":"2017-02-16T00:36:06+01:00"}
+Api key : e93435fa-8e7d-4cce-b9de-8227de9be5d6
+Game token : 7bdd8841da2d964951bccc4357756b4d
+[Aucun groupe:0:info][processIdentification]...
+Connecting to login server (https://proxyconnection.touch.dofus.com?STICKER=T2mLpOM96ylc5ZHd) ...
+Connection opened !
+[Aucun groupe:0:info]Identification connection opened !
+[Aucun groupe:0:info]Identification success (1465968706047849905) !
+[Aucun groupe:0:info]Servers list received !
+[Aucun groupe:0:info][processServerSelection]...
+[Aucun groupe:0:info]Request for server infos (id : 403) ...
+Connection closed
+migrating...
+Connection opened !
+[Aucun groupe:0:info]Game connection opened !
+[Aucun groupe:0:success][processServerSelection]OK
+[Aucun groupe:0:info][processsCharacterSelection]...
+[Aucun groupe:0:info]Request for characters ...
+[Aucun groupe:0:info]Selecting frist character (Miss-Lagertha) ...
+Set default config for Miss-Lagertha
+[Aucun groupe:0:info][Inventory]Object : 68578851 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 68578852 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 68578853 selected for regen !
+[Aucun groupe:0:info][Inventory]Object : 68578854 selected for regen !
+Sequence ready !
+[Aucun groupe:0:info][Infos]Welcome to DOFUS, and welcome to the World of Twelve! 
+Remember that it is <b>strictly forbidden</b> to disclose your account name or password.
+[Aucun groupe:0:info][Infos]There will be a server maintenance in 11 hours, 53 minutes.
+{"call":"global-state-request"}
+Server request for state ...
+[InventoryManager]Items infos loaded !
+[Sync]Processing ...
+[Sync]Ready to process !
+[Sync]Trajet ready ...
+[Trajet]No trajet loaded !
+Debug command received .
+ELEMENT ID : 463301
+ELEMENT ID : 463302
+ELEMENT ID : 463303
+ELEMENT ID : 463304
+ELEMENT ID : 463305
+ELEMENT ID : 463306
+ELEMENT ID : 463307
+ELEMENT ID : 463308
+ELEMENT ID : 463309
+ELEMENT ID : 463310
+ELEMENT ID : 463311
+ELEMENT ID : 463312
+ELEMENT ID : 463313
+ELEMENT ID : 463314
+ELEMENT ID : 463315
+ELEMENT ID : 463316
+ELEMENT ID : 463317
+ELEMENT ID : 463318
+ELEMENT ID : 463319
+ELEMENT ID : 463320
+ELEMENT ID : 463321
+ELEMENT ID : 463322
+ELEMENT ID : 463323
+ELEMENT ID : 463324
+ELEMENT ID : 463522
+ELEMENT ID : 463301
+ELEMENT ID : 463302
+ELEMENT ID : 463303
+ELEMENT ID : 463304
+ELEMENT ID : 463305
+ELEMENT ID : 463306
+ELEMENT ID : 463307
+ELEMENT ID : 463308
+ELEMENT ID : 463309
+ELEMENT ID : 463310
+ELEMENT ID : 463311
+ELEMENT ID : 463312
+ELEMENT ID : 463313
+ELEMENT ID : 463314
+ELEMENT ID : 463315
+ELEMENT ID : 463316
+ELEMENT ID : 463317
+ELEMENT ID : 463318
+ELEMENT ID : 463319
+ELEMENT ID : 463320
+ELEMENT ID : 463321
+ELEMENT ID : 463322
+ELEMENT ID : 463323
+ELEMENT ID : 463324
+ELEMENT ID : 463522
+TypeError: Cannot read property 'enabledSkills' of undefined
+    at exports.Gather.gatherable (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\engine\core\gather.js:26:34)
+    at exports.Gather.GatherFirstAvailableRessource (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\engine\core\gather.js:15:11)
+    at EventEmitter.bot.connection.dispatcher.on.e (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\engine\core\sync.js:27:19)
+    at emitOne (events.js:96:13)
+    at EventEmitter.emit (events.js:188:7)
+    at Primus.<anonymous> (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\network\clientConnection.js:75:19)
+    at emitTwo (events.js:106:13)
+    at Primus.emit (events.js:191:7)
+    at done (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\network\primus.js:2569:48)
+    at transform (C:\Users\Zakaria\Desktop\KingTouch-master\KingToutchManager\king-touch-src\network\primus.js:2540:30)

@@ -9,7 +9,7 @@ const BANK_MAPS = {
 }
 // Class
 exports.sendWebRequestToDataUrl = function SendWebRequestToDataUrl(data, callback){
-	WebRequest({ uri: "https://proxyconnection.touch.dofus.com/data/map?lang=fr&v=0.56.1", method: "POST", form: data }, (error, response, body) => { callback(JSON.parse(body)); })
+	WebRequest({ uri: "https://proxyconnection.touch.dofus.com/data/map?lang=fr&v=0.60.0", method: "POST", form: data }, (error, response, body) => { callback(JSON.parse(body)); })
 }
 
 exports.getSpellsInfos = function(ids, callback){
@@ -21,6 +21,12 @@ exports.getSpellLevelsInfos = function(ids,id,callback){
 
 exports.getItemsInfos = function(ids,callBack){
     exports.sendWebRequestToDataUrl({class: "Items", ids}, (result) => { callBack(result); });
+}
+exports.getBreedsInfos = function(ids,callBack){
+    exports.sendWebRequestToDataUrl({class: "Breeds", ids}, (result) => { callBack(result); });
+}
+exports.getSubAreasInfos = function(callBack){
+    exports.sendWebRequestToDataUrl({class: "SubAreas"}, (result) =>{ callBack(result); });
 }
 //return null if no phoenix on the map
 exports.getPhoenixInfos = function(mapId){

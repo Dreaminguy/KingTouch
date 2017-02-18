@@ -1,5 +1,6 @@
 var EventEmitter = require("events").EventEmitter;
 var Logger = require("./../utils/logger.js").Logger;
+var NetworkLogger = require("./../utils/networkLogger").NetworkLogger;
 
 var HaapiConnection = require("./../network/haapiConnection.js").HaapiConnection;
 var ClientConnection = require("./../network/clientConnection.js").ClientConnection;
@@ -30,10 +31,11 @@ exports.Bot = function(groupeName,clientId,reconnectFunction){
 	this.trajet = new Trajet(this);
 	this.fight = new Fight(this);
 	this.sync = new Sync(this);
-	this.gather = new Gather(this);
+    this.gather = new Gather(this);
 }
 
 exports.Bot.prototype.connect = function(accompt){
+    this.packetLogger = new NetworkLogger(new Date().getTime() + accompt.username);
 	var reconnecting =false;
 	self=this;
 	this.data.accompt = accompt;
@@ -53,7 +55,7 @@ exports.Bot.prototype.connect = function(accompt){
 
 		processGameContext(self);
 		if(typeof self.haapi.loadedToken != "undefined"){
-			processIdentification(self.logger,self.connection,self.haapi.loadedToken.token,accompt.username,function(servers,login){
+			processIdentification(self.logger,self.connection,self.haapi.loadedToken.token,accompt.username,(servers,login) => {
 				self.login = login;
 				self.migrating=true;//todo localiser plus presisement le momens ou on fais la migration
 				processServerSelection(self.logger,self.connection,servers,function(){
@@ -63,7 +65,7 @@ exports.Bot.prototype.connect = function(accompt){
 					});
 				});
 			});
-			self.connection.connect(config.sessionId,self.data.config.dataUrl);
+			self.connection.connect(config.sessionId,self.data.config.dataUrl,self.packetLogger);
 		}
 		else{
 			self.reconnect(self);

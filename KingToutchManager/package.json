@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "event-wrapper": "^1.0.3",
+    "jsonfile": "^2.4.0",
     "ws": "^2.0.3"
   }
 }

@@ -101,7 +101,6 @@
               on-iron-activate="_drawerSelected">
 			  
             <paper-item name="home">Clients</paper-item>
-			<paper-item name="accompts">Gestionaire de comptes</paper-item>
               <paper-item><a href="https://discordapp.com/channels/@me">Createur de trajet</a></paper-item>
             <paper-item name="config">Configuration</paper-item>
           </paper-listbox>
@@ -118,7 +117,7 @@
       <!-- list/detail pages -->
       <iron-pages selected="[[_pageData.page]]" attr-for-selected="name">
 
-        <clients-list id="client-list-main" username="" password="" name="home">
+        <clients-list id="client-list-main"  username="" password="" name="home">
           <paper-icon-button icon="app:menu" drawer-toggle></paper-icon-button>
         </clients-list>
 
@@ -135,6 +134,7 @@
         <client-detail
             id="detailView"
             name="detail"
+            clientId="{{_idData}}"
             trajets="[[_getTrajets()]]"
             client="[[_getClients(clients, _idData.id)]]"></client-detail>
 
@@ -203,7 +203,123 @@
 				name: "Incarnoob zaap + phoenix",
 				describ: "tape des mob dans incranoob (passe par les deux zaap sud) avec phoenix",
 				trajet: {"trajet":{"fights":[{ "map": 80216580, "cell": 540 },{ "map": 80216581, "cell": 555 },{ "map": 80216582, "cell": 363 },{ "map": 80217094, "cell": 541 },{ "map": 80217095, "cell": 556 },{ "map": 80217096, "cell": 279 },{ "map": 80217608, "cell": 279 },{ "map": 80218120, "cell": 10 },{ "map": 80218119, "cell": 447 },{ "map": 80218631, "cell": 251 },{ "map": 80219143, "cell": 4 },{ "map": 80219142, "cell": 308 },{ "map": 80218630, "cell": 10 },{ "map": 80218629, "cell": 112 },{ "map": 80218117, "cell": 112 },{ "map": 80217605, "cell": 3 },{ "map": 80217604, "cell": 280 },{ "map": 80217092, "cell": 392 }]}}
-			}
+			},
+      {
+        id:2,
+        name : "Incarnam paysan test",
+        describ: "Recoltes paysans sur quelques maps d'Incarnoob",
+        trajet:   {
+                    "trajet": {
+                      "fights": [
+                      ],
+                      "recolte": [
+                        {
+                          "map": 80219138,
+                          "dir": "right"
+                        },
+                        {
+                          "map": 80219650,
+                          "dir": "left"
+                        }
+                      ],
+                      "interactives": [
+                      ],
+                      "moves": [
+                      ],
+                      "bank": [
+                      ]
+                    }
+                }
+      },
+      {
+        id:3,
+        name : "Incarnam foret combat",
+        describ: "Tape des mobs foret",
+        trajet: {
+                  "trajet": {
+                    "recolte": [
+                    ],
+                    "fights": [
+                      {
+                        "map": 80216581,
+                        "dir": "right"
+                      },
+                      {
+                        "map": 80217093,
+                        "dir": "bottom"
+                      },
+                      {
+                        "map": 80217094,
+                        "dir": "left"
+                      },
+                      {
+                        "map": 80216582,
+                        "dir": "left"
+                      },
+                      {
+                        "map": 80216070,
+                        "dir": "left"
+                      },
+                      {
+                        "map": 80347654,
+                        "dir": "top"
+                      },
+                      {
+                        "map": 80347653,
+                        "dir": "right"
+                      },
+                      {
+                        "map": 80216069,
+                        "dir": "right"
+                      }
+                    ],
+                    "interactives": [
+                    ],
+                    "moves": [
+                    ],
+                    "bank": [
+                    {
+                      "map": 84674566,
+                      "interactive" : 465440,
+                      "skill" : 140242,
+                    },
+                    {
+                      "map": 83887104,
+                      "npc" : 0
+                    }
+                    ]
+                  }
+                }
+      },
+      {
+        id:3,
+        name : "Astrub's almighty bank",
+        describ: "Test pour la banque d'astrub",
+        trajet:     {
+      "trajet": {
+        "fights": [
+        ],
+        "recolte": [
+        ],
+        "interactives": [
+        ],
+        "moves": [
+        ],
+        "bank": [
+          {
+            "map": 84674566,
+            "interactive" : 465440,
+            "skill" : 140242,
+          },
+          {
+            "map": 83887104,
+            "npc" : 0,
+            "reply" : 259
+          }
+        ]
+      }
+    }//putain d'indenation on s'en blc(ici , seul ici xD)
+      }
         ];
     },
 
